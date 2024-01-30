@@ -10,7 +10,7 @@ import image6 from "../assets/images/dice6.png";
 export default function Dice() {
   const [image, setImage] = useState(image3);
   const images = [image1, image2, image3, image4, image5, image6];
-  const randomIndex = Math.round(Math.random() * images.length - 1);
+  const randomIndex = Math.round(Math.random() * images.length);
 
   const onClickHandler = () => {
     setImage(image0);
