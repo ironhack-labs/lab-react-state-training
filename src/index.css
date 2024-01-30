@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.LikeButton {
+  width: 78px;
+}
+
+.Counter {
+  display: flex;
+  margin: 24px 0;
+}
+
+.Counter button {
+  background-color: rgb(84, 62, 228);
+  color: white;
+  width: 50px;
+  margin: 8px;
+}
+
+img {
+  width: 30%;
+  margin: 24px;
+}
