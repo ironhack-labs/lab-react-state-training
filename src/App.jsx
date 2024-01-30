@@ -4,6 +4,7 @@ import Counter from "./components/Counter";
 import Dice from "./components/Dice";
 import LikeButton from "./components/LikeButton";
 import DiscoButton from "./components/DiscoButton";
+import Carousel from "./components/Carousel"
 
 function App() {
   return (
@@ -19,6 +20,15 @@ function App() {
       <Dice />
       <h2>Iteration 5: DiscoButton</h2>
       <DiscoButton />
+      <h2>Iteration 6: Carousel</h2>
+      <Carousel
+        images={[
+          "https://randomuser.me/api/portraits/women/1.jpg",
+          "https://randomuser.me/api/portraits/men/1.jpg",
+          "https://randomuser.me/api/portraits/women/2.jpg",
+          "https://randomuser.me/api/portraits/men/2.jpg",
+        ]}
+      />
     </div>
   );
 }
