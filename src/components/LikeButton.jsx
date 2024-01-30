@@ -1,13 +1,17 @@
 import { useState } from "react";
 
-export default function LikeButton() {
+function LikeButton() {
   const [count, setCount] = useState(0);
+  
   const handleButtonClick = () => {
-    setCount(count + 1);
+    setCount(count + 1); // CANNOT use count++ 
   };
+
   return (
     <div className="likeButton">
-      <button onClick={handleButtonClick}> {count} Likes</button>
+      <button onClick={handleButtonClick}> {count} likes</button>
     </div>
   );
 }
+
+export default LikeButton;
