@@ -9,19 +9,20 @@ import emptyDice from "../assets/images/dice-empty.png";
 
 export default function Dice() {
   const images = [dice1, dice2, dice3, dice4, dice5, dice6];
-  const [currentImage, setCurrentImg] = useState(dice1);
+  const randomIndex = Math.floor(Math.random() * images.length);
+  const [currentImg, setCurrentImg] = useState(images[randomIndex]);
 
   const clickOnDice = () => {
     setCurrentImg(emptyDice);
     setTimeout(() => {
-      setCurrentImg(images[Math.floor(Math.random() * images.length)]);
+      setCurrentImg(images[randomIndex]);
     }, 1000);
   };
 
   return (
     <div>
       <img
-        src={currentImage}
+        src={currentImg}
         onClick={clickOnDice}
         style={{ width: "200px" }}
       />
