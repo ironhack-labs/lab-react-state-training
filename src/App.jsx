@@ -1,9 +1,15 @@
-import "./App.css";
+import LikeButtons from "./components/LikeButtons";
+import Counter from "./components/Counter";
+import ClickablePicture from "./components/ClickablePicture";
+import Dice from "./components/Dice";
 
 function App() {
   return (
     <div className="App">
-      <h1> LAB | React Training</h1>
+      <LikeButtons />
+      <Counter />
+      <ClickablePicture />
+      <Dice />
     </div>
   );
 }
