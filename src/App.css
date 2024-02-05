@@ -1,0 +1,8 @@
+.box {
+    display: flex;
+    margin: 3vh;
+}
+
+.box img {
+    width: 150px;
+}
