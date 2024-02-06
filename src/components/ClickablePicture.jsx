@@ -3,25 +3,17 @@ import maxenceGlasses from "../assets/images/maxence-glasses.png";
 import { useState } from "react";
 
 function ClickablePicture() {
-  let maxenceImage = maxenceDefault;
-
+  
   const [imageGlasses, setImageGlasses] = useState(false);
-
-  const glassesState = () => {
-    if (!imageGlasses) {
-      maxenceImage = maxenceGlasses;
-      console.log(maxenceImage);
-      setImageGlasses(true);
-    } else {
-      setImageGlasses(false);
-      console.log(maxenceImage);
-      maxenceImage = maxenceDefault;
-    }
+  
+  const toggleGlasses = () => {
+    setImageGlasses(!imageGlasses);
   };
+  let imgSrc = imageGlasses ? maxenceGlasses : maxenceDefault 
 
   return (
     <div>
-      <img src={maxenceImage} alt="maxence" onClick={glassesState} />
+      <img src={imgSrc} alt="maxence" onClick={toggleGlasses} />
     </div>
   );
 }
