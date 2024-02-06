@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.counterButton {
+  background-color: blue;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+}
+
+.ImageDice {
+  width: 100px;
+}
