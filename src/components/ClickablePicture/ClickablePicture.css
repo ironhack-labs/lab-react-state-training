@@ -1,0 +1,7 @@
+.clickable-picture {
+  margin: 0;
+  padding: 4px;
+  box-sizing: border-box;
+  width: 128px;
+  height: 128px;
+}
