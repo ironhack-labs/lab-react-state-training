@@ -1,0 +1,14 @@
+.box {
+    display: flex;
+    margin: 3vh;
+}
+
+.box img {
+    width: 150px;
+}
+
+#disco {
+    width: 150px;
+    height: 50px;
+    color: white;
+}
