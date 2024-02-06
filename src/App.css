@@ -1,0 +1,8 @@
+.btn-like{
+    display: flex;
+    gap: 10px;
+}
+.btn-counter{
+    display: flex;
+    gap: 10px;
+}
