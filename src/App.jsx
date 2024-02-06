@@ -3,6 +3,8 @@ import LikeButton from "./components/LikeButton";
 import Counter from "./components/Counter";
 import ClickablePicture from "./components/ClickablePicture";
 import Dice from "./components/Dice";
+import DiscoButton from "./components/DiscoButton";
+import Carousel from "./components/Carousel";
 
 function App() {
   return (
@@ -20,6 +22,12 @@ function App() {
       </div>
       <div className="box">
         <Dice />
+      </div>
+      <div className="box">
+        <DiscoButton />
+      </div>
+      <div className="box">
+        <Carousel />
       </div>
     </div>
   );

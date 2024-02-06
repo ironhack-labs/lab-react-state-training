@@ -1,4 +1,6 @@
 import {useState} from 'react';
+import noGlasses from '/src/assets/images/maxence.png'
+import glasses from '/src/assets/images/maxence-glasses.png'
 
 function ClickablePicture () {
 
@@ -8,11 +10,9 @@ function ClickablePicture () {
 
     return(
         <div>
-             {toggle ?
-             <img src="./src/assets/images/maxence.png" onClick={handleClick}></img>
-            :
-            <img src="./src/assets/images/maxence-glasses.png" onClick={handleClick}></img>
-            }
+             
+             <img src={toggle ? noGlasses : glasses} onClick={handleClick}></img>
+            
         </div>
     )
 
