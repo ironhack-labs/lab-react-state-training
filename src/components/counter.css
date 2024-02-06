@@ -1,0 +1,9 @@
+.counter-container{
+    display: flex;
+    border: 2px black solid;
+    width: fit-content;
+    margin: 10px;
+}
+.btn{
+    margin: 10px;
+}
