@@ -11,3 +11,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+h1{
+  text-align: center;
+}
+div > .like-btn{
+  display: flex;
+}
+.like-btn{
+  width: 90px;
+  height: 30px;
+  margin: auto;
+  font-size: 20px;
+  text-align: center;
+}
+.counter-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px rgb(58, 58, 238) solid;
+}
+.btn{
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+  background-color: rgb(58, 58, 238);
+  border: rgb(58, 58, 238);
+  color: white;
+  font-size: 30px;
+  border-radius: 2px;
+}
+
+.btn:hover{
+  color: rgb(233, 245, 238);
+}
+
+span{
+  font-weight: bold;
+  font-size: 30px;
+}
+
