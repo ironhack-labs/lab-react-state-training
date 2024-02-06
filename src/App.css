@@ -1,0 +1,18 @@
+button {
+    border: 1px solid;
+    padding: 0.6em 1.2em;
+    font-size: 10px;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: rgb(131, 126, 126);
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+
+.blueButton {
+    border: 1px solid ;
+    background-color: blue;
+    color: white ;
+    padding: 10px ;
+    margin: 10px ;
+}
