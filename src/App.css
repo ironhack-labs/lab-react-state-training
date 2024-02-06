@@ -1,0 +1,24 @@
+.LikeButton {
+    display: flex;
+}
+.LikeButton button {
+    margin: 5px 5px;
+}
+
+.Counter {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 5px;
+    width: 100px;
+    height: 40px;
+    border: 1px solid blue
+}
+.Counter button {
+    color: white;
+    background-color: lightblue;
+    border: 0;
+}
+.Counter button:hover {
+    background-color: blue;
+}
