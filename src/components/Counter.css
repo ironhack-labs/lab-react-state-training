@@ -1,0 +1,17 @@
+.Counter {
+    border: 1px solid blueviolet;
+    height: 80px;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Counter button {
+    height: 50px;
+    width: 50px;
+    background-color: #116EFD;
+    border: none;
+    color: #fff;
+    font-size: 1.2em;
+}
