@@ -1,0 +1,9 @@
+.ClickablePicture p {
+    width: 80px;
+    margin: 10px;
+}
+
+.ClickablePicture img {
+    width: 200px;
+    margin: 10px;
+}
