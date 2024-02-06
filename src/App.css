@@ -1,0 +1,46 @@
+.blueButton {
+    background-color: blue;
+    color: white;
+    border: none;
+    width: 30px;
+    height: 30px;
+}
+
+.buttonBox {
+    display: flex;
+    width: 130px;
+    height: 50px;
+    border: solid;
+    border-width: 2px;
+    border-color: blue;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.redButton {
+    background-image: url(./assets/images/maxence.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+}
+
+.pinkButton {
+    background-image: url(./assets/images/maxence-glasses.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+}
+
+.diceButton {
+    background-image: url(./assets/images/dice-empty.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+}
+
+
