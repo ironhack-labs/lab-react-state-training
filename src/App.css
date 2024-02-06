@@ -1,0 +1,20 @@
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid blue;
+  width: 10%;
+  height: 10%;
+  padding: 20px;
+  margin: 10px;
+}
+.counter button {
+  margin: 2%;
+  background-color: lightblue;
+}
+
+.photo img {
+  border: 2px solid black;
+  width: 100%;
+  height: 20%;
+}
