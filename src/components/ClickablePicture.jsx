@@ -1,17 +1,23 @@
 import React from "react";
 import { useState } from "react";
 
-function ClickablePicture () {
+function ClickablePicture() {
 
- const [pic, changePic] = useState("./assets\images.maxence.png")
+    const [pic, setPic] = useState("./assets\images.maxence.png")
 
-const togglePics = () => {
-    changePic(pic);
+    const togglePics = () => {
+        if (pic === "./assets\images.maxence.png") {
+            setPic("./assets\images.maxence-glasses.png")
+        } else {
+            setPic("./assets\images.maxence.png")
+        }
+    };
+    return (
+        <div>
+            <img src={pic} onClick={togglePics} />
+        </div>
+    )
+
 }
-return (
-    <div>
-        <img src={pic} onClick={handleClick} />
-    </div>
-)
 
-}
+export default ClickablePicture;
