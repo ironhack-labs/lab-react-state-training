@@ -1,0 +1,25 @@
+.likes-btn {
+    margin: 20px;
+    font-size: 20px;
+}
+
+.Counter {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+}
+
+.Counter p {
+    width: 14px;
+    text-align: center;
+}
+
+.counter-btn {
+    width: 30px;
+    height: 30px;
+    margin:10px;
+    background-color: blue;
+    color: white;
+    border: 0;
+}
