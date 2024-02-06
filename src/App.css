@@ -1,0 +1,28 @@
+.like{
+    display: flex;
+    gap: 10px;
+  }
+
+.counter{
+    display: flex;
+    gap: 10px;
+  }
+
+.picture{
+    display: flex;
+    gap: 10px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .dice{
+    display: flex;
+    gap: 10px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .disco{
+    display: flex;
+    gap: 10px;
+  }
