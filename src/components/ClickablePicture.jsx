@@ -3,7 +3,7 @@ import { useState } from "react";
 
 function ClickablePicture() {
 
-    const [pic, setPic] = useState("./assets\images.maxence.png")
+    const [pic, setPic] = useState("./assets/images.maxence.png")
 
     const togglePics = () => {
         if (pic === "./assets\images.maxence.png") {
