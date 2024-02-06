@@ -1,0 +1,21 @@
+.Counter {
+    border: 1px solid blue;
+    display: flex;
+    width: 150px;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-bottom: 15px;
+}
+
+.Counter button {
+    margin: 5px;
+    background-color: rgb(41, 173, 203);
+    color: white;
+    font-size: 1.4em;
+    width: 30px;
+}
+
+.Counter p {
+    margin: 5px;
+    font-size: 1.2em;
+}
