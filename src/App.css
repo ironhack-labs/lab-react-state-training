@@ -1,0 +1,38 @@
+#likebutton2{
+    width: 55px;
+    height: 40px;
+    margin-left: 7px;
+    background-color: orchid;
+}
+
+#likebutton1{
+    width: 55px;
+    height: 40px;
+    margin: 10px;
+    margin-right: 7px;
+    background-color: orange;
+}
+
+.section{
+    display: flex;
+}
+
+#button3{
+    width: 43px;
+    height: 30px;
+    margin: 5px;
+    background-color: blue;
+    cursor: pointer;
+}
+
+#button4{
+    width: 43px;
+    height: 30px;
+    margin: 5px;
+    background-color: blue;
+    cursor: pointer;
+}
+
+#count2{
+    margin: 5px;
+}
