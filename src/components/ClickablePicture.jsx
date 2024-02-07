@@ -9,7 +9,7 @@ function ClickablePicture() {
     return (
 
         <section>
-            <img className="image" onClick={() => setPhoto(!photo)} src ={currentImage}  />
+            <img className="image" onClick={() => setPhoto(!photo)} src ={currentImage} alt="Maxence" />
         </section>
     )
 }

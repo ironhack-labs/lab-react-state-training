@@ -11,8 +11,11 @@ function Dice() {
     const [currentNumber, setCurrentNumber] = useState(0);
   
     const rollDice = () => {
-      const newNumber = Math.floor(Math.random() * 6) + 1;
-      setCurrentNumber(newNumber);
+      setCurrentNumber(0);
+      setTimeout(() => {
+        const newNumber = Math.floor(Math.random() * 6) + 1;
+        setCurrentNumber(newNumber);
+      }, 1000);
     };
   
     const diceImages = [dice2, dice3, dice4, dice5, dice6, dice7];
