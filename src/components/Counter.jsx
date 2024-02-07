@@ -9,9 +9,9 @@ function Counter ( ) {
     
       const decreaseCounter = () => {
         if (counter === 0) {
-          return;
+          setCounter(counter - 1);
         }
-        setCounter(counter - 1);
+        
       };
 
 

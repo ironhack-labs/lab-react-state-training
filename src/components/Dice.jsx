@@ -18,8 +18,10 @@ function Dice() {
 
     const rollDice = () => {
         setDiceImage(emptyDiceImage);
-        setTimeout(() => setDiceImage(getRandomDiceImage)), 1000 };
-
+        setTimeout(() => {
+            setDiceImage(getRandomDiceImage());
+          }, 1000);
+        }
     return (
         <img
             src={diceImage}
@@ -28,7 +30,7 @@ function Dice() {
             className="ImageDice"
         />
     );
-}
+    }
 
 export default Dice;
 
