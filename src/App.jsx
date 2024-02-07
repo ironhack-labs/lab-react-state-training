@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 
 import LikeButton from "./components/LikeButton";
-import ClickablePicture from  "./components/ClickablePicture";
+import ClickablePicture from "./components/ClickablePicture";
 
 
 
@@ -11,14 +11,14 @@ function App() {
 
     <>
       <div className="App">
-      <h1> LAB | React Training</h1>
-    </div>
-    <LikeButton />
+        <h1> LAB | React Training</h1>
+      </div>
+      <LikeButton />
 
-    <ClickablePicture/>
+      <ClickablePicture />
     </>
-  
- 
+
+
 
   );
 }

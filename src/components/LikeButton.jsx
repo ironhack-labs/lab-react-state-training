@@ -10,18 +10,15 @@ function LikeButton(){
     const increaseCounter = () => {
         setIncreaseCount(increaseCount + 1);
     };
-
     const decreaseCounter = () => {
         setDecreaseCount(decreaseCount + 1);
     };
-
     return (
         <>
             <button onClick={increaseCounter}>{increaseCount} Likes</button>
             <button onClick={decreaseCounter}>{decreaseCount} Likes</button>
         </>
     );
-
 }
 
 export default LikeButton;
