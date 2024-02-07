@@ -1,0 +1,19 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
+    width: 10%;
+    height: 10%;
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+  }
+
+  .btn button {
+    margin: 2%;
+    background-color: rgb(66, 66, 236);
+  }
+
+  
+  
