@@ -1,0 +1,27 @@
+.ctr {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px blue solid;
+    width: 150px;
+    margin: 10px 0;
+}
+
+.ctrBtn {
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    padding: 5px 15px;
+    border: none;
+}
+
+.image {
+    height: 300px;
+    width: 300px;
+}
+
+.dice {
+    height: 300px;
+    width: 300px;
+
+}
