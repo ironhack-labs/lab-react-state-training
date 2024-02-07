@@ -9,7 +9,6 @@ function LikeButton ( ) {
     return (
         <>
         <button onClick={increaseLike}> {counter} Likes</button> 
-        <button onClick={increaseLike}> {counter} Likes</button>
         </>
     )
 }
