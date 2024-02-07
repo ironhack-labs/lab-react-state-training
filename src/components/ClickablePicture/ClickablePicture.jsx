@@ -19,7 +19,7 @@ function ClickablePicture () {
 
         <div className="image">
 
-        <img onClick={() => setIsVisible(!isVisible)}  src={isVisible ? image : imageWithGlasses} alt="Maxence" />
+        <img onClick={() => setIsVisible(!isVisible)} src={isVisible ? imageWithGlasses : image} alt='Maxence' />
 
 
 
