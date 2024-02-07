@@ -19,9 +19,12 @@ function RandomDice() {
   const [dice, setDice] = useState(diceArr[0]);
 
   const handleClick = () => {
-    setDice(diceArr[0]); // Display empty picture first
+    {/**  the line below handles the first picture to be displayed  */}
+    setDice(diceArr[0]);
+    {/** we use a "setTimeeout" to wait 1sec until the second picture is displayed */}
     setTimeout(() => {
-      setDice(randomPic(diceArr)); // Display random picture after 1 second
+      {/** we print out/return a random picture using the newly created function to perform this task */}
+      setDice(randomPic(diceArr)); 
     }, 1000);
   };
 
