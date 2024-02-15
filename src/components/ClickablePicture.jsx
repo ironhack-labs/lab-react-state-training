@@ -9,7 +9,7 @@ function ClickablePicture() {
     const [currentPincture, setCurrentPicture] = useState(max1)
 
     const handleSunGlasses = () => {
-        setCurrentPicture(max2)
+        setCurrentPicture(currentPincture === max1 ? max2 : max1)
     }
 
     

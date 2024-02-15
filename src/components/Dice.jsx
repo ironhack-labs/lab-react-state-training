@@ -7,16 +7,22 @@ import dice5 from "../assets/images/dice5.png"
 import dice6 from "../assets/images/dice6.png"
 
 import { useState } from "react"
+const diceArr = [dice1, dice2, dice3, dice4, dice5, dice6]
 
 function Dice() {
-    const diceArr = [dice1, dice2, dice3, dice4, dice5, dice6]
-
-    const randomDice = Math.floor(Math.random() * diceArr.length)
 
     const [currentDice, setCurrentDice] = useState(dice)
 
     const handleDice = () => {
-        setCurrentDice(diceArr[randomDice])
+        setCurrentDice(dice)
+
+        setTimeout(() => {
+             const randomDice = Math.floor(Math.random() * diceArr.length)
+
+            setCurrentDice(diceArr[randomDice])
+        }, 1000)
+
+       
     }
 
 
