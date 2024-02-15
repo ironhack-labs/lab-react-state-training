@@ -7,17 +7,18 @@ import dice4 from "../assets/images/dice4.png";
 import dice5 from "../assets/images/dice5.png";
 import dice6 from "../assets/images/dice6.png";
 
+const diceArr = [dice1, dice2, dice3, dice4, dice5, dice6];
+
 function Dice() {
   const [diceTransition, setDiceTransition] = useState(empty);
   const handleRandomDice = () => {
-    const diceArr = [dice1, dice2, dice3, dice4, dice5, dice6];
-    const random = Math.floor(Math.random() * 6);
-    if (diceTransition === empty) {
-      setDiceTransition(diceArr[random]);
-    } else {
-      setDiceTransition(empty);
-    }
-    console.log(diceArr);
+    setDiceTransition(empty)
+    setTimeout(() => {
+      const random = Math.floor(Math.random() * diceArr.length);
+      setDiceTransition(diceArr[random])
+    }, 1000);
+    
+
   };
   return (
     <div>
