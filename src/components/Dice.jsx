@@ -23,7 +23,7 @@ function Dice() {
 }
     return (
         <div>
-            <img src={dice} onClick={rollDice}/>
+            <img src={dice} onClick={setDice()}/>
         </div>
     );
    
