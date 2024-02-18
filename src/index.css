@@ -11,3 +11,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.like-button button {
+  margin: 5px;
+}
+
+.likeButton:active{
+border-color: blue;
+border: 3px solid blue;
+}
+
+.counter-box {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5px;
+  width: fit-content;
+  height: fit-content;
+  border: 1px solid blue;
+  padding: 10px;
+}
+
+.counter-box button {
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  background-color: blue;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 0px;
+}
+
+.counter-button:hover{
+  cursor: pointer;
+  background-color: darkblue;
+}
+
+.counter-box span {
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+
+
+/* style={{ width: "30px", height: "30px", fontSize: "15px", backgroundColor: "blue", color: "white", marginRight: "10px", marginLeft: "10px"}} */
+/* style={{ display: "flex", justifyContent: "space-evenly", margin: "5px", width: "fit-content", height: "fit-content", border: "1px solid blue", padding: "10px"}} */
