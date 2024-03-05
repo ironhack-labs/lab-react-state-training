@@ -14,6 +14,6 @@ export const ClickablePicture = () => {
   return imgState == false ? (
     <img onClick={changeImg} src={img} alt="Maxence" />
   ) : (
-    <img onClick={changeImg} src={imgGlasses} alt="Maxence" />
+    <img onClick={changeImg} src={imgGlasses} alt="Maxence Glasses" />
   );
 };
