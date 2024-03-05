@@ -1,0 +1,30 @@
+.counter {
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+}
+
+.counter button {
+  margin: 0 0.5em;
+  padding: 0.5em;
+  font-size: 1.5em;
+  border-radius: 0.5em;
+  width: 3em;
+  height: 3em;
+  border: 1px solid #000;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.counter div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3em;
+  height: 3em;
+
+  border-radius: 0.5em;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #000;
+}

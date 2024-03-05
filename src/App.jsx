@@ -1,8 +1,14 @@
 import "./App.css";
+import { Counter } from "./components/Counter";
 import { LikeButton } from "./components/LikeButton";
 
 function App() {
-  return <LikeButton />;
+  return (
+    <>
+      <Counter />
+      <LikeButton />
+    </>
+  );
 }
 
 export default App;
