@@ -1,9 +1,22 @@
 import "./App.css";
+//import LikeButton from "./components/LikeButton";
+import {Counter} from "./components/Counter"
+import ClickablePicture from "./components/ClickablePicture"
+import Dice from "./components/Dice"
 
-function App() {
+function App () {
   return (
     <div className="App">
       <h1> LAB | React Training</h1>
+      <h2> LikeButton </h2>
+      <Counter />
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <ClickablePicture/>
+      <br></br>
+      <Dice/>
     </div>
   );
 }
