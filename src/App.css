@@ -1,0 +1,30 @@
+.App {
+	height: 300px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.btnLike {
+	height: 30px;
+	width: 80px;
+}
+
+.containerCounter {
+	margin: 20px;
+	border: 1px solid blue;
+	padding: 20px;
+}
+
+.btnCounter {
+	background: blue;
+	color: white;
+	width: 40px;
+	height: 40px;
+	margin: 5px 10px;
+}
+
+img {
+	margin: 10px;
+}
