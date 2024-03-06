@@ -1,8 +1,8 @@
 import "./App.css";
 import react, { useState } from "react";
-import Likes from "./components/Likes";
+import Likes from "./components/LikeButton";
 import Counter from "./components/Counter";
-import { Clickable } from "./components/Clickable";
+import { Clickable } from "./components/ClickablePicture";
 import Dice from "./components/Dice";
 
 

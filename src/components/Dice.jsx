@@ -8,13 +8,13 @@ import picture from "../assets/images/dice-empty.png";
 
 const Dice = ({diceImage, setDiceImage}) => {
     const handleClick = () => {
-        setDiceState('../assets/images/dice-empty.png');
+        setDiceImage('../assets/images/dice-empty.png');
 
     //set timeout to update dice after one second
     setTimeout(()=> {
-        const randomDiceValue = Math.floor(Math.random() * 6) +1;
+        const randomDiceValue = Math.floor(Math.random() * 5) +1;
         const newRandomDice = `./assets/images/dice${randomDiceValue}.png`;
-        setDiceState(newRandomDice);
+        setDiceImage(newRandomDice);
     }, 1000);
     }
 
