@@ -1,0 +1,17 @@
+.likeBtn{
+    width: 100px;
+    height: 50px;
+    font-size: large;
+}
+.counterContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+p {
+    margin: 30px;
+}
+.dice{
+    width: 50px;
+    margin: 50px;
+}
