@@ -1,0 +1,21 @@
+.Counter {
+  display: flex;
+}
+
+.btn {
+  width: 3rem;
+  background-color: rgb(46, 108, 244);
+  border: 1px solid rgb(46, 108, 244);
+  color: white;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: rgb(29, 73, 162);
+  border: 1px solid rgb(29, 73, 162);
+}
+
+.count {
+  width: 3rem;
+  text-align: center;
+}
