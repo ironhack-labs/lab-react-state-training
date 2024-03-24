@@ -1,0 +1,10 @@
+button {
+  color: white;
+  background-color: blue;
+  margin: 0.3rem;
+}
+.counterContainer {
+  border: solid 1px blue;
+  padding: 1rem;
+  max-width: 5rem;
+}
