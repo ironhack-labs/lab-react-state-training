@@ -1,0 +1,19 @@
+.LikeBtn{
+    margin: 10px;
+}
+
+.countingBtns{
+    margin: 20px;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid 2px blue;
+}
+
+.diceImg{
+    width: 100px;
+    height: 100px;
+}
