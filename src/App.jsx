@@ -1,11 +1,18 @@
-import "./App.css";
+import React from 'react';
+import LikeButton from './components/LikeButton';
+import Counter from './components/Counter';
+import './index.css';
+import ClickablePicture from './components/ClickablePicture';
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <h1> LAB | React Training</h1>
+    <div>
+      <LikeButton />
+      <Counter />
+      <ClickablePicture/>
     </div>
   );
-}
+};
 
 export default App;
