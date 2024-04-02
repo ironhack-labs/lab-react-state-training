@@ -1,0 +1,17 @@
+.btn-div {
+    position: 0;
+    padding-top: 0%;
+}
+
+#increment,
+#decrement {
+    border: transparent;
+    width: 25px;
+    height: 25px;
+    fill: aqua;
+    background-color: aqua;
+}
+
+.div-pretty {
+    flex-direction: row;
+}
