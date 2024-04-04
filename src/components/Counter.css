@@ -1,0 +1,35 @@
+/* Counter.css */
+.counter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f0f0;
+    border: 1px solid #d0d0d0;
+    padding: 10px;
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  .button-counter {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 0 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    width: 50px; /* Fixed width for symmetry */
+    height: 50px; /* Fixed height for symmetry */
+  }
+  
+  .button-counter:hover {
+    background-color: #0056b3;
+  }
+  
+  .count-display {
+    font-size: 2rem;
+    min-width: 50px; /* Minimum width to handle larger numbers */
+    text-align: center;
+  }
+  

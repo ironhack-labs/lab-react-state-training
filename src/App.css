@@ -1,0 +1,20 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Use minimum height to allow content to grow */
+    text-align: center;
+  }
+  
+  .App h1 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+
+/* Add this new class to your App.css */
+.component-wrapper {
+  margin-bottom: 40px; /* This adds spacing below each component */
+}
+
