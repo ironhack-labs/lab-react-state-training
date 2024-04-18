@@ -1,0 +1,27 @@
+.counter {
+    margin: 0.5em;
+    height: 1.5em;
+    border: 2px solid blue;
+    border-radius: 3px;
+    text-align: center;
+    width: 6em;
+    padding-bottom: 0.5em;
+}
+
+.counter>button {
+    margin: 0.5em;
+    border: none;
+    color: white;
+}
+
+.counter-display {
+    font-size: 0.9em;
+}
+
+.counter-inc-btn {
+    background-color: darkblue; 
+}
+
+.counter-dec-btn {
+    background-color: blue;
+}
