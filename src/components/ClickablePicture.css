@@ -1,0 +1,14 @@
+.container {
+  position: relative;
+}
+
+#firstp,
+#secondtp {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#toggle-button {
+  position: right;
+}
