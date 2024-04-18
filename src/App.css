@@ -1,0 +1,13 @@
+import Counter from './components/Counter';
+ 
+function App() {
+  return (
+    <div>
+      <h1>React - state and events</h1>
+ 
+      <LikeButton />
+    </div>
+  );
+}
+ 
+export default App;
