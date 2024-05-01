@@ -1,0 +1,11 @@
+.counter{
+    border: 1px solid blue;
+    display: inline-block;
+    padding: 5px;
+}
+
+.counter button{
+    background-color: blue;
+    color: white;
+    margin: 10px;
+}
