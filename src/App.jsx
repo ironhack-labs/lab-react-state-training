@@ -1,4 +1,8 @@
 import "./App.css";
+import LikeButton from "./components/LikeButton";
+import Counter from "./components/Counter";
+import Dice from "./components/Dice";
+import ClickablePicture from "./components/ClickablePicture";
 
 function App() {
   return (
@@ -9,3 +13,5 @@ function App() {
 }
 
 export default App;
+
+
