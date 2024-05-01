@@ -1,0 +1,18 @@
+.counter-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+    width: 80px;
+    border: 1px solid rgb(98, 98, 255);
+    margin: 10px;
+}
+
+.button-counter{
+    background-color: rgb(98, 98, 255);
+    color: white;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border: none;
+}

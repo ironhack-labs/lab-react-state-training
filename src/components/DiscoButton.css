@@ -1,0 +1,36 @@
+.purple{
+    margin: 10px;
+    background-color: purple;
+    color: white;
+    border: none;
+}
+.blue{
+    margin: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+.green{
+    margin: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+}
+.yellow{
+    margin: 10px;
+    background-color: yellow;
+    color: black;
+    border: none;
+}
+.orange{
+    margin: 10px;
+    background-color:orange;
+    color: white;
+    border: none;
+}
+.red{
+    margin: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+}

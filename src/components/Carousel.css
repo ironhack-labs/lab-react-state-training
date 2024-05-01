@@ -1,0 +1,16 @@
+.carousel-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+}
+
+.img-carousel{
+    width: 200px;
+    height: fit-content;
+}
+
+.button-carousel{
+    width: 50px;
+    height: fit-content;
+}
