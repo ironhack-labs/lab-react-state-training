@@ -1,0 +1,22 @@
+:root{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    font-size: 24px;
+}
+
+button {
+    padding: 12px 24px;
+    font-weight: 800;
+    font-size: 24px;
+    margin: 24px;
+    background-color: paleturquoise;
+
+}
+button:hover {
+    border: 2px solid green;
+}
+button:active {
+    background-color: green;
+    color: white;
+}
