@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+.App {
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.ClickablePicture img {
+    width: 250px;
+}
+
+.CounterButtons {
+
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid black;
+    background: cornflowerblue;
+    border-radius: 5px;
+
+
+}
+
+.CounterButtons button {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.Dice img {
+    width: 300px;
+}
