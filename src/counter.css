@@ -1,0 +1,6 @@
+.button {
+    width: 20%;
+    padding: 5px;
+    border: 1px solid;
+    display: flex;
+}
