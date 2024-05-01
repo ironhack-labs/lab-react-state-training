@@ -1,0 +1,27 @@
+.CounterContainer {
+    margin: 50px;
+    border: 1px solid blue;
+    display: inline-flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+span {
+    margin: 20px;
+}
+
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: rgb(76, 135, 231);
+}
