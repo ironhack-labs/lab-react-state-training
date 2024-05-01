@@ -1,0 +1,29 @@
+.Likebutton button {
+    padding: 10px 20px;
+    min-width: 50px;
+    margin: 5px;
+    border: 2px solid black;
+    background: rgb(142, 216, 248);
+    border-radius: 4px;
+}
+
+
+
+
+.Counter button {
+    padding: 10px 20px;
+    min-width: 50px;
+    margin: 5px;
+    border: 2px solid black;
+    background: rgb(142, 216, 248);
+    border-radius: 4px;
+}
+
+
+.OlsenSize img {
+    width: 200px;
+}
+
+.diceContainer img {
+    width: 200px;
+}
