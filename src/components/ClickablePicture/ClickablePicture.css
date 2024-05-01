@@ -1,0 +1,15 @@
+img{
+    width: 100% ;
+}
+.containerImg{
+    width: 25rem;
+    margin:1rem;
+    padding:0;
+    border-radius: 1rem;
+    border: 1px solid #8e7657;
+
+    background-position: center;
+	background-attachment: contain;
+	background-size: cover;
+    overflow: hidden;
+}

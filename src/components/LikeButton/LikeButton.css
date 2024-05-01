@@ -1,0 +1,9 @@
+button{
+    padding: 0.7rem 2rem;
+    margin:1rem;
+    background-color: burlywood;
+    border-radius: 1.2rem;
+    border: 1px solid #8e7657;
+    color: #8e7657;
+    font-size: 1.2rem;
+}
