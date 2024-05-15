@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+.Counter {
+  margin: 0 auto;
+  display: flex;
+  border: 1px solid #ccc;
+  width: fit-content;
+  padding: 1rem 2rem;
+  border: 1px solid #4e7eef;
+}
+
+.Counter button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  width: 3rem;
+  height: 3rem;
+  background-color: #fff;
+  border: none;
+  background: #3b76ff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.Counter span {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 2.5rem;
+}
