@@ -1,0 +1,14 @@
+.counter{
+    display: flex;
+    border: 1px solid blue;
+    align-items: center;
+    width: 80px;
+    justify-content: space-evenly;
+    height: 40px;
+}
+.counter button{
+    background-color: rgb(44, 44, 221);
+    color:aliceblue;
+    border: 0cap;
+    
+}
