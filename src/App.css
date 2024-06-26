@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure full viewport height */
+    margin: 0; /* Remove default margin */
+    background-color: #f0f0f0;
+  }
+  
+  /* Apply styles directly to the img elements */
+  img {
+    display: block; /* Ensures images behave like block elements */
+    width: 200px; /* Fixed width */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Spacing between images */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+    transition: transform 0.3s ease; /* Optional: Smooth transition on hover */
+  }
+  
+  img:hover {
+    transform: scale(1.1); /* Optional: Scale up image on hover */
+    cursor: pointer; /* Optional: Change cursor to pointer on hover */
+  }
+  
