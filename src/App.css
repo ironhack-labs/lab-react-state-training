@@ -1,0 +1,57 @@
+.dice {
+  display: flex;
+  width: 300px;
+  height: 300px;
+}
+
+button {
+  display: flex;
+  border-radius: 15%;
+  color: rgb(66, 6, 123);
+  background-color: brown;
+}
+
+.likeBtn {
+  display: flex;
+  font-size: 25px;
+  border-radius: 15%;
+  color: rgb(66, 6, 123);
+  background-color: rgb(165, 41, 41);
+  height: 50px;
+  width: 200px;
+  padding-left: 55px;
+}
+
+.counterBtn {
+  display: flex;
+  font-size: 25px;
+  border-radius: 15%;
+  color: rgb(112, 5, 16);
+  background-color: rgb(4, 76, 15);
+  height: 37.5px;
+  width: 150px;
+  padding-left: 85px;
+}
+
+.counterBtn:hover {
+  color: rgb(4, 76, 15);
+  background-color: rgb(112, 5, 16);
+  height: 50px;
+  width: 200px;
+}
+
+.likeBtn:active {
+  color: rgb(165, 41, 41);
+  background-color: rgb(66, 6, 123);
+  height: 75;
+  width: 250px;
+}
+
+.dice:hover {
+  display: flex;
+  border-radius: 15%;
+  background-color: rgb(129, 183, 231);
+  display: flex;
+  width: 310px;
+  height: 310px;
+}
