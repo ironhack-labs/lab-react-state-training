@@ -1,0 +1,19 @@
+/* ClickablePicture.css */
+.clickable-picture {
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.clickable-picture img {
+  max-width: 100px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  align-items: center;
+  justify-content: center;
+}
+
+.clickable-picture img:hover {
+  transform: scale(1.2);
+}

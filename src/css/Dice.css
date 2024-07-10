@@ -1,0 +1,12 @@
+/* Dice.css */
+.dice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dice img {
+  max-width: 100px;
+  margin: 20px 0;
+  cursor: pointer;
+}

@@ -1,0 +1,29 @@
+/* DiscoButton.css */
+.disco-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #6b5bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  animation: disco 1s infinite;
+}
+
+@keyframes disco {
+  0% {
+    background-color: #6b5bff;
+  }
+  25% {
+    background-color: #5b6bff;
+  }
+  50% {
+    background-color: #4b7bff;
+  }
+  75% {
+    background-color: #3b8bff;
+  }
+  100% {
+    background-color: #2b9bff;
+  }
+}
