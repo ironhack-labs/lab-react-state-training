@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 10;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +10,32 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.LikeButton {
+  background-color: white;
+  color: black;
+}
+
+.Counter {
+  display: flex;
+  flex-flow: space-around;
+  width: 300px;
+  Height: 50px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 2px solid #006DFC;
+  align-items: center;
+
+
+}
+.Counter button {
+  height: 40px;
+  width: 40px;
+  background-color: #006DFC;
+  color: white;
+  border: none;
+}
+.Counter p {
+  font-size:2em;
 }
