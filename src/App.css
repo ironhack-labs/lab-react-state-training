@@ -1,0 +1,13 @@
+#root {
+    background-color: rgb(195, 195, 195);
+    color: rgb(0, 0, 0);
+}
+
+.counter-button {
+    padding: 5px;
+    height: 100 px;
+}
+
+.dice {
+    width: 400px;
+}
