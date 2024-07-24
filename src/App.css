@@ -1,0 +1,40 @@
+button {
+  margin: 0 .5rem;
+}
+
+.Counter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100px;
+  margin: 0 .5rem;
+  border: 1px solid blue;
+  padding: .5rem;
+}
+
+.Counter button {
+  background-color: blue;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: .25rem;
+  line-height: 1;
+  height: 1.5rem;
+  aspect-ratio: 1 / 1;
+  font-weight: 900;
+}
+
+.Dice {
+  margin: 0 .5rem;
+}
+
+.Dice img {
+  max-width: 200px;
+}
+
+.DiscoButton {
+  color: white;
+  padding: .5rem;
+}
