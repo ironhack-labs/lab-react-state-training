@@ -1,0 +1,8 @@
+.Counter {
+    display: flex;
+}
+
+.Counter button {
+    background-color: blueviolet;
+
+}
