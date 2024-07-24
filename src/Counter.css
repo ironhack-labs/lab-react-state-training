@@ -1,0 +1,38 @@
+.counter-container {
+    width: 10%;
+    height: 5%;
+    border: solid rgb(32, 89, 195) 1px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 5px;
+
+    button {
+        width: 30%;
+        height: 40px;
+        font-size: 2em;
+        color: aliceblue;
+        background-color:rgb(32, 89, 195) ;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    button:hover {
+        width: 31%;
+        height: 44px;
+        color: aliceblue;
+        background-color:rgb(35, 95, 199) ;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+
+}
+
+
+
