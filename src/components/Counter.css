@@ -1,0 +1,22 @@
+.counter {
+    margin: 20px;
+    border: 1px rgb(0, 145, 255) solid;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter button {
+    width: 2em;
+    height: 2em;
+    color: white;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(84, 121, 255);
+}
+
+h2 {
+    padding: 0 5px;
+    margin: 10px;
+}
