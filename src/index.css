@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.counter-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid blue;
+  padding: 10px;
+  border-radius: none;
+  max-width: 200px;
+  margin: auto;
+}
+
+.counter-button{
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 15px 20px;
+  margin: 0 35px;
+  cursor: pointer;
+  border-radius: none;
+}
+
+
+.counter-button:hover{
+  background-color: darkblue;
+}
+
+
+.counter-value{
+  font-size: 30px;
+  font-weight:500;
+}
