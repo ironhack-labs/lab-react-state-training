@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+}
+
+.likesContainer {
+    align-content: center;
+    text-align: center;
+    text-wrap: horizontal;
+   
+}
+
