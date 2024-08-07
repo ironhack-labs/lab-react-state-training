@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.like-button {
+  margin: 2vh;
+}
+
+.buttons {
+  display: flex;
+  margin: 1vh;
+}
+
+.buttons button {
+  margin: 2vh;
+  background-color: lightblue;
+}
+
+.clickable-picture {
+  height: 30vh;
+}
+
+.dice {
+  height: 30vh;
+}
+
+.disco-button {
+  margin: 2vh;
+}
