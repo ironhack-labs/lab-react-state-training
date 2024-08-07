@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.likeButton, .counter, .pictureNoGlasses img, .picture img, .dice{
+  margin: 3vw;
+}
+
+.counter {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  width: 100px;
+}
+
+.counter button {
+  background-color: aqua;
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+}
+
+.picture img, .dice img {
+  width: 150px;
+  height: auto;
+
+}
