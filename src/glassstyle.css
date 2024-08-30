@@ -1,0 +1,21 @@
+.base-image {
+  display: block;
+  width: 40%;
+  position: relative;
+  z-index: 0;
+}
+
+.overlay {
+  position: absolute;
+  left: 20%;
+  top: 35%;
+  width: 30%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.carouss {
+  display: flex;
+  flex-direction: row;
+}
