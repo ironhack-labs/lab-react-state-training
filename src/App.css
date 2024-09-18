@@ -1,0 +1,21 @@
+
+
+.photoContainer {
+  position: relative;
+}
+.maxPhoto {
+  width: 300px;
+}
+.maxGlassesNone {
+  display: none;
+}
+.maxGlasses {
+  /* display: none; */
+  position: absolute;
+  width: 180px;
+  top: 60px;
+  left: 50px;
+}
+img {
+  width: 200px;
+}
