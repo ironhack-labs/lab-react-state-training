@@ -1,0 +1,16 @@
+body{
+  margin-left: 64px;
+}
+button {
+  height: 32px;
+}
+
+.counter{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.dice img{
+  width: 150px;
+}
