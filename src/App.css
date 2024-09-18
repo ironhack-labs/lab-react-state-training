@@ -1,0 +1,26 @@
+.button-like{
+    padding: 5px;
+    margin:10px;
+    width: 80px;
+    height: 50px;
+    font-size: 15px;
+}
+.counter{
+    display: flex;
+    margin: 15px;
+    
+}
+.button-counter{
+    padding: 15px;
+    margin: 7px;
+    width: 50px;
+    background-color: aqua;
+}
+.imagen-max{
+    width: 180px;
+    margin: 20px;
+}
+.cubo{
+    width: 100px;
+    margin: 20px;
+}
