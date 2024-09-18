@@ -1,0 +1,37 @@
+.boton{
+    padding: 40px;
+    display: flex;
+    gap: 10px;
+}
+
+button{
+    width: 80px;
+    height: 40px;
+}
+
+.botonContenedor{
+    width: 90px;
+    height: 90px;
+    background-color: rgb(75, 75, 207);
+    font-size: 30px;
+    color: bisque;
+
+}
+.botonContenedor:hover{
+    background-color: rgb(97, 97, 240);
+   
+}
+
+.contenedor{
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    gap: 40px;
+    border: 3px solid rgb(65, 65, 193);
+    width: 260px;
+}
+span{
+    text-emphasis: center;
+    padding-top: 25px;
+    font-size: 30px;
+}
