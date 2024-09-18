@@ -1,0 +1,33 @@
+import { useState } from 'react'
+import dice1 from '../../src/assets/images/dice1.png'
+import dice2 from '../../src/assets/images/dice2.png'
+import dice3 from '../../src/assets/images/dice3.png'
+import dice4 from '../../src/assets/images/dice4.png'
+import dice5 from '../../src/assets/images/dice5.png'
+import dice6 from '../../src/assets/images/dice6.png'
+
+
+function Dice() {
+
+  const [diceFace, setDiceFace] = useState(dice3)
+  // const [rolling, setRolling] = useState(false) // not used; to be considered in the future
+
+  const rollDice = () => {
+
+    setDiceFace(dice3)
+
+    setTimeout(() => {
+      const newDice = [dice1, dice2, dice3, dice4, dice5, dice6][Math.floor(Math.random() * 6)];
+      setDiceFace(newDice)
+    }, 1000)
+  }
+
+
+  return (
+    <div className='dice-container'>
+      <img src={diceFace} onClick={rollDice} style={{ width: '100px'}} />
+    </div>
+  )
+}
+
+export default Dice

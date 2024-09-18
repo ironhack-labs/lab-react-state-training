@@ -1,0 +1,83 @@
+.App {
+  padding: 10px;
+}
+
+h1 {
+  color: grey;
+}
+
+button {
+  margin: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  background-color: #5aaaff;
+  color: white;
+  cursor: pointer;
+}
+
+.counter-container, .dice-container {
+  display: flex;
+  direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: solid 2px grey;
+  border-radius: 15px;
+  margin-top: 25px;
+  padding: 5px;
+  font-size: 17px;
+}
+
+.counter-container {
+  width: 150px;
+  height: 60px;
+}
+
+.counter-button {
+  height: 30px;
+}
+
+.glasses-container {
+  display: flex;
+  direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: solid 10px rgba(206, 85, 33, 0.601);
+  border-radius: 5px;
+  width: 100px;
+  height: 100px;
+  margin-top: 25px;
+}
+
+.dice-container {
+  width: 120px;
+  height: 120px;
+  border-color: rgb(255, 238, 0);
+}
+
+.carousel-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: left;
+  margin-top: 25px;
+}
+
+.carousel-container button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #5aaaff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.carousel-container img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
