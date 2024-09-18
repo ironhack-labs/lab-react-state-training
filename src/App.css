@@ -1,0 +1,48 @@
+.like-btn {
+  margin: 10px;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  border: 1px solid #0066EC;
+  padding: 20px;
+  margin: 10px;
+  width: 100px;
+  height: 20px;
+}
+
+.counter button {
+  height: 30px;
+  width: 30px;
+
+  background-color: #0066EC;
+  border: none;
+  color: white;
+}
+
+.picture {
+  margin: 10px;
+}
+
+.picture img {
+  width: 300px;
+}
+
+.dice {
+  margin: 10px;
+}
+
+.dice img {
+  width: 300px;
+}
+
+.disco-btn {
+  margin: 10px;
+}
+
+.carousel {
+  margin: 10px;
+}
