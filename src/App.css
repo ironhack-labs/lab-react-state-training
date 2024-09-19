@@ -1,0 +1,17 @@
+#counter button{
+    height: 20px;
+}
+
+#counter p{
+    margin: 0;
+}
+
+
+.row {
+    display: flex;
+    gap: 20px;
+}
+
+img {
+    width: 200px;
+}
