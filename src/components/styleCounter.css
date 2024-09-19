@@ -1,0 +1,32 @@
+.counter {
+  margin-top: 30px;
+}
+
+.buttons {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 50px;
+  border: 2px solid blue;
+  display: flex;
+}
+
+.increase {
+  color: white;
+  background-color: rgb(51, 97, 225);
+  border: none;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.decrease {
+  color: white;
+  background-color: rgb(51, 97, 225);
+  border: none;
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
