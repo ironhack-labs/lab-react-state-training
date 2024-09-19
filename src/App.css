@@ -1,0 +1,51 @@
+#likes-button {
+  font-size: 30px;
+  border: solid 1px black;
+  border-radius: 5px;
+  margin: 30px 50px;
+  padding: 5px 10px;
+}
+
+.counter-box {
+  border: solid 2px #1d5d9b;
+  padding: 5px;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  margin: 30px 50px;
+}
+
+.counter-box p {
+  padding: 5px;
+  font-size: 30px;
+}
+
+.counter-button {
+  padding: 5px;
+  margin: 10px;
+  width: 60px;
+  height: 60px;
+  background-color: #1d5d9b;
+  color: white;
+  font-size: 30px;
+  border: none;
+}
+
+#toggle-button {
+    margin: 30px 50px;
+    border: none;
+}
+
+#dice-button {
+    margin: 30px 50px;
+    width: max-content;
+    height: max-content;
+    border: none;
+    border-radius: 80px;
+    overflow: hidden;
+}
+
+#dice-button img {
+    width: 500px;
+    height: 500px;   
+}
