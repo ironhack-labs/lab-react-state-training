@@ -1,0 +1,43 @@
+div {
+  margin-left: 10px;
+}
+h2 {
+  background-color: bisque;
+}
+
+/* iteración 1 */
+button {
+  text-align: center;
+  background-color: rgb(175, 134, 216);
+  margin: 10px;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+/* iteración 2 */
+#counter {
+  display: flex;
+  gap: 1rem;
+  border: 2px solid blue;
+  width: max-content;
+  padding: 5px;
+}
+#counter button {
+  background-color: aquamarine;
+  padding: 15px;
+  width: 60px;
+}
+#counter button:hover {
+  background-color: rgb(85, 254, 198);
+
+}
+
+#counter h1 {
+  font-size: 30px;
+}
+
+/* Iteración 2 */
+img {
+  width: 200px;
+}
