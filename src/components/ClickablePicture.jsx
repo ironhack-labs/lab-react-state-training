@@ -1,6 +1,6 @@
 import { useState } from "react";
-import image1 from "./assets/images/maxence.png";
-import image2 from "./assets/images/maxence-glasses.png";
+import "../assets/images/maxence.png";
+import "../assets/images/maxence-glasses.png";
 
 const ClickablePicture = ({ image1, image2 }) => {
   const [currentImage, setCurrentImage] = useState(image1);
