@@ -1,0 +1,47 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f6f6;
+  height: 100vh;
+}
+
+.buttons {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f9f6f6;
+  width: fit-content;
+}
+
+.button {
+  /* border-radius: 18px; */
+  width: 50px;
+  border: 1px solid transparent;
+  padding: 15px;
+  font-size: 1em;
+  margin: 10px;
+  cursor: pointer;
+  background-color: rgb(94, 199, 234);
+  color: white;
+}
+
+.button:hover {
+  background-color: rgb(48, 48, 239);
+}
+
+.count-number {
+  width: 20px;
+}
+
+.clicked-image {
+  width: 250px;
+}
+
+.dice {
+  width: 100px;
+}
