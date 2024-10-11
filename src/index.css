@@ -7,7 +7,29 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#counter-wrapper {
+  display: flex;
+  gap: 20px;
+  border: 1px solid black;
+  padding: 15px;
+  width: 150px;
+}
+
+.counter-button{
+  width: 40px;
+  height: 40px;
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+#dice1 {
+  height: 100px;
+  width: 100px;
 }
