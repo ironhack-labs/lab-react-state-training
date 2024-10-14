@@ -1,0 +1,16 @@
+/* src/components/DiscoButton.css */
+
+.disco-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth color transition */
+  outline: none; /* Remove default focus outline */
+}
+
+.disco-button:hover {
+  opacity: 0.8; /* Slightly fade the button on hover */
+}

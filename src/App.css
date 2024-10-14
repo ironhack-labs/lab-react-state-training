@@ -1,0 +1,75 @@
+/* src/styles.css */
+/* src/App.css */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f5f5f5; /* Light background color for the app */
+}
+
+.App {
+  text-align: center;
+  padding: 20px; /* Adds space around the content */
+}
+
+h1 {
+  font-size: 2.5rem; /* Larger font size for the main heading */
+  margin-bottom: 20px; /* Space below the heading */
+  color: #333; /* Dark color for the heading */
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px; /* Adds space between buttons */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+button:hover {
+  background-color: #007bff; /* Change background on hover */
+  color: white; /* Change text color on hover */
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0; /* Space around the counter */
+}
+
+.like-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0; /* Space around the like button */
+}
+
+.carousel {
+  margin: 20px auto; /* Center the carousel */
+  max-width: 600px; /* Maximum width for the carousel */
+}
+
+.dice {
+  font-size: 2rem; /* Larger font size for the dice result */
+  margin: 20px; /* Space around the dice display */
+}
+
+.disco-button {
+  margin: 20px; /* Space around the disco button */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff4081; /* Disco button color */
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.disco-button:hover {
+  background-color: #d5006d; /* Darker shade on hover */
+}

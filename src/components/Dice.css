@@ -1,0 +1,22 @@
+/* src/components/Dice.css */
+
+.dice {
+  display: flex;
+  justify-content: center; /* Center the dice in its container */
+  align-items: center; /* Vertically center the image */
+  cursor: pointer; /* Change the cursor to indicate it's clickable */
+  width: 100px; /* Set a fixed width for the dice */
+  height: 100px; /* Set a fixed height for the dice */
+  margin: 20px; /* Add some space around the dice */
+  transition: transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.dice img {
+  width: 100%; /* Make the image take the full width of the container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10%; /* Optional: add rounded corners to the dice */
+}
+
+.dice:hover {
+  transform: scale(1.1); /* Slightly enlarge the dice on hover */
+}

@@ -1,0 +1,21 @@
+/* src/components/ClickablePicture.css */
+
+.clickable-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer; /* Change cursor to pointer */
+  margin: 20px; /* Add some margin */
+  transition: transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.clickable-picture img {
+  width: 150px; /* Ensure the image fills the container */
+  max-width: 300px; /* Set a maximum width for the image */
+  height: 150px; /* Maintain aspect ratio */
+  border-radius: 10%; /* Optional: add rounded corners */
+}
+
+.clickable-picture:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
