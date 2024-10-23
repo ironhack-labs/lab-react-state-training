@@ -1,0 +1,16 @@
+.mainbutton{
+    border: 1px solid blue;
+    margin: 20px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+.clickboutton{
+    background-color: rgb(43, 201, 201);
+    width: 60px;
+    font-size:30px
+}
+.buttonNumber{
+    font-weight: 800;
+    font-size:30px
+}
