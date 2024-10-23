@@ -11,3 +11,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.counter {
+  border: 1px solid blue;
+  margin: 1rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  width: 30%;
+}
+
+.counter button {
+  background-color: blue;
+  width: 3rem;
+  height: 3rem;
+  font-size: 28px;
+  color: white;
+  border: none;
+}
+
+.dice img,
+.counter button:hover {
+  cursor: pointer;
+}
+
+.counter button:active {
+  background-color: darkblue;
+  transform: scale(0.9);
+
+}
+
+.counter span {
+  text-align: center;
+  margin: 0 1rem;
+  width: 2em;
+  padding-top: 1rem;
+}
+
+.clickablePicture img {
+  width: 20%;
+  height: 30%;
+  margin: 1rem;
+  border: 1px solid black;
+}
+
+.dice img {
+  width: 20%;
+  height: 20%;
+  margin: 1rem;
+}
