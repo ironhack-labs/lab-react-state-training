@@ -1,0 +1,17 @@
+section{
+  margin: 20px;
+}
+
+button{
+  margin: 20px;
+}
+
+img{
+  max-width: 200px;
+}
+
+.btn-like{
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
