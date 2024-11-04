@@ -1,0 +1,57 @@
+.like-button{
+    margin: 0 10px;
+    padding: 5px 10px;
+    font-size: 1em;
+}
+
+.counter{
+    display: flex;
+}
+
+.square-button{
+    width: 50px;
+    height: 50px;
+
+    border-radius: 0px;
+    margin: 10px;
+    background-color: rgb(79, 130, 189);
+
+    font-size: 2em;
+}
+
+.clickable-pic{
+    cursor: pointer;
+    margin: 10px;
+}
+
+.max-pic{
+    width: 200px;
+    height: 200px;
+}
+
+.dice{
+    cursor: pointer;
+    margin: 10px;
+}
+
+.dice-pic{
+    width: 100px;
+    height: 100px;
+}
+
+.carousel{    
+    display: flex;
+    align-items: flex-end;
+
+    margin: 10px;
+}
+
+.lr-button{
+    width: 50px;
+    height: 25px;
+
+    border-radius: 0px;
+    margin: 10px;
+
+    font-size: 1em;
+}
