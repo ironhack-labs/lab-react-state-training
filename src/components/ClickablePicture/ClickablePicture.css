@@ -1,0 +1,11 @@
+.clickable-picture {
+    cursor: pointer;
+    width: 200px;
+    /* Adjust as needed */
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.clickable-picture:hover {
+    transform: scale(1.05);
+}
