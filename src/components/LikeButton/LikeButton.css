@@ -1,0 +1,11 @@
+.Button {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.Button button {
+    font-size: 2em;
+    cursor: pointer;
+}

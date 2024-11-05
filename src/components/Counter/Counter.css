@@ -1,0 +1,29 @@
+.Counter {
+    padding: 30px;
+    margin: 50px auto;
+    width: 300px;
+    border: 1px solid blue;
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.Counter button {
+    width: 65px;
+    height: 65px;
+    font-size: 2em;
+    background-color: rgb(58, 58, 248);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.Counter button:hover {
+    background-color: rgb(42, 42, 182);
+}
+
+.Counter h2 {
+    font-size: 2em;
+}
