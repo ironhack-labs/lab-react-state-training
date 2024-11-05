@@ -1,0 +1,24 @@
+.Counter {
+    width: 100px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid blue;
+    padding: 10px 30px;
+    margin-bottom: 40px;
+}
+
+.Counter button {
+    background-color: blue;
+    border-style: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 0;
+}
