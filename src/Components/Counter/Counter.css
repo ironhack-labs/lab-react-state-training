@@ -1,0 +1,19 @@
+.Counter svg {
+    height: 24px;
+}
+
+.Counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 16px;
+}
+
+.Buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    padding: 16px;
+}

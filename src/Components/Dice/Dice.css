@@ -1,0 +1,10 @@
+.Dice {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Dice img {
+    height: 300px;
+}
