@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+.counter-container {
+  border: 1px solid #006EFD;
+  width: 150px;
+  display: flex;
+  gap: 10px;
+  margin-left: 50px;
+  padding: 30px;
+
+
+  button {
+    background-color: #006EFD;
+    color: white;
+    border-style: none;
+    padding: 10px;
+
+
+  }
+}
