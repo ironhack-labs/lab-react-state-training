@@ -1,9 +1,16 @@
 import "./App.css";
+import ClickeablePicture from "./components/ClickeablePicture/ClickeablePicture";
+import Counter from "./components/Counter/Counter";
+import Dice from "./components/Dice/Dice";
+import Likebutton from "./components/likebutton/likebutton";
 
 function App() {
   return (
     <div className="App">
-      <h1> LAB | React Training</h1>
+      <Likebutton />
+      <Counter />
+      <ClickeablePicture />
+      <Dice />
     </div>
   );
 }
