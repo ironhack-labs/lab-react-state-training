@@ -1,0 +1,41 @@
+.like-button-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .like-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+  }
+  
+  .like-button.increment {
+    background-color: #4caf50; 
+    color: white;
+  }
+  
+  .like-button.increment:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+  }
+  
+  .like-button.decrement {
+    background-color: #f44336; 
+    color: white;
+  }
+  
+  .like-button.decrement:hover {
+    background-color: #e53935;
+    transform: scale(1.05);
+  }
+  
+  .like-count {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
