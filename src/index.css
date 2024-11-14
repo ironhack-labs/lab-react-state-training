@@ -11,3 +11,53 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+hr {
+  margin: 3rem 0;
+}
+
+.diceWrapper {
+  img {
+    width: 5rem;
+  }
+}
+
+.like-button {
+  display: inline-block;
+  margin-right: 2rem;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  font-size: 2rem;
+  button {
+    padding: 1rem 1.5rem;
+    font-size: 1.5rem;
+    line-height: 1;
+    flex-basis: auto;
+  }
+  .number {
+    flex-basis: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+.shade-image {
+  img {
+    max-width: 15rem;
+  }
+}
+
+.like-button-disco button {
+  font-size: 1.5rem;
+  line-height: 1;
+  padding: 0.5rem 1rem;
+  color: white;
+}
+
+/* #dfdfdf */
