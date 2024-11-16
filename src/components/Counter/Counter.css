@@ -1,0 +1,16 @@
+.Counter{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+}
+
+.Counter button {
+    height: fit-content;
+    padding: 8px 16px;
+}
+
+svg{
+    width: 24px;
+    height: 24px;
+}

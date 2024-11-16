@@ -1,0 +1,23 @@
+
+.LikeButton button{
+
+    border: none;
+    background-color: #ee537a;
+    padding: 16px;
+    margin: 16px;
+
+}
+
+.LikeButton button:hover {
+    border: 1px solid #333;
+    background-color: #a7324f;
+    color: #fff;
+
+}
+
+.LikeButton button:focus {
+    border: 1px solid    #fff;
+    background-color: #f9003e;
+    color: #fff;
+
+}
