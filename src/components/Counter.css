@@ -1,0 +1,20 @@
+.counter-btn{
+    background-color: #006EFD;
+    color: white;
+    padding: 1rem;
+}
+
+.counter span{
+    padding: 1rem;
+}
+
+.counter-btn:hover{
+    background-color: #004AA8;
+}
+.counter{
+    padding: 2rem;
+    border: 1px solid blue;
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 0.75rem;
+}
