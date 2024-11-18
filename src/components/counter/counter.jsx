@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function Counter({ initialCountValue = 0, max }) {
+function Counter({ initialCountValue = 0, max,children }) {
   const [count, setCount] = useState(initialCountValue);
   const handleCountDown = () => {
     if (count <= max) {

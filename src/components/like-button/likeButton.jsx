@@ -1,22 +1,33 @@
 import { useState } from "react";
-function LikeButton({ className = "", initialCountValue = 0, max, }) {
+function LikeButton({
+  className = "",
+  initialCountValue = 0,
+  max,
+  onClick,
+  style,
+}) {
   const [count, setCount] = useState(initialCountValue);
 
   const handleCountUp = () => {
     if (max === undefined || count < max) {
       setCount(count + 1);
     }
-   
+
     if (count == max) {
       setCount(0);
     }
+    if (onClick) {
+      onClick();
+    }
   };
   return (
-    <div className="container-sm bg-primary col-md-3 {className}">
-      <button className="btn btn-secondary btn-sm mb-2" onClick={handleCountUp}>
-        {count} Likes
-      </button>
-    </div>
+    <button
+      className={`btn btn-secondary btn-sm mb-2 ${className}`}
+      style={style}
+      onClick={handleCountUp}
+    >
+      {count} Likes
+    </button>
   );
 }
 export default LikeButton;
