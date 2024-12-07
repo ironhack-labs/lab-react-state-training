@@ -1,0 +1,115 @@
+/* Estilo general para la aplicación */
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Título */
+  h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+  }
+  
+  /* Estilo para los botones */
+  button {
+    font-size: 1.2rem;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+  }
+  
+  /* Efecto en los botones cuando se hace hover */
+  button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Estilo para el LikeButton */
+  .LikeButton button {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .LikeButton button:active {
+    background-color: #45a049;
+  }
+  
+  /* Estilo para los botones del Counter */
+  .Counter button {
+    background-color: #007BFF;
+    color: white;
+  }
+  
+  .Counter button:active {
+    background-color: #0056b3;
+  }
+  
+  /* Estilo para el Dice */
+  .Dice button {
+    background-color: #FF9800;
+    color: white;
+  }
+  
+  .Dice button:active {
+    background-color: #f57c00;
+  }
+  
+  /* Estilo para la imagen de los dados */
+  .Dice img {
+    width: 200px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .Dice img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Estilo para los botones de Counter */
+  .Counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .Counter button {
+    margin: 0 15px;
+  }
+  
+  /* Estilo para ClickablePicture */
+  .ClickablePicture img {
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.3s;
+    cursor: pointer;
+  }
+  
+  .ClickablePicture img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Estilo adicional para separar los componentes */
+  .components-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+  }
