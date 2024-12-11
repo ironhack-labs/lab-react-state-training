@@ -1,0 +1,30 @@
+#counterDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: bisque;
+}
+
+#counterDiv button {
+    background-color: blue;
+    height: 20px;
+    color: lightblue;
+    width: 20px;
+    font-weight: bold;
+}
+
+#counterDiv p {
+    font-weight: bold;
+    margin: 5px;
+}
+
+#pfpIMG{
+    height: 300px;
+    width: 300px;
+}
+
+#diceDiv img{
+    height: 300px;
+    width: 300px;
+}
