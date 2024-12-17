@@ -1,0 +1,78 @@
+.App {
+  --button-color: #06c;
+  --button-color-hover: rgb(0, 66, 132);
+  margin: 1rem;
+}
+
+/* Iteration 1 | LikeButton */
+#iteration1 button:last-of-type {
+  margin-left: 1rem;
+}
+
+/* Iteration 2 | Counter */
+#iteration2 {
+  display: inline-block;
+}
+
+#iteration2 .counter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  border: solid 2px var(--button-color);
+  font-weight: 700;
+}
+
+#iteration2 .counter > button {
+  width: 3rem;
+  height: 3rem;
+  margin: 0 1.5rem;
+  background-color: var(--button-color);
+  color: white;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+#iteration2 .counter > button:hover {
+  background-color: var(--button-color-hover);
+}
+
+#iteration2 .counter > p {
+  font-size: 1.5rem;
+}
+
+/* Iteration 3 | State: ClickablePicture */
+#iteration3 img {
+  height: 15rem;
+  border: solid 5px black;
+}
+
+/* Iteration 4 | State: Dice */
+#iteration4 img {
+  height: 15rem;
+}
+
+/* Bonus: Iteration 5 | DiscoButton */
+#iteration5 div {
+  display: inline-block;
+}
+
+/* Bonus: Iteration 6 | Carousel */
+#iteration6 {
+  display: inline-block;
+}
+
+#iteration6 .carousel {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+#iteration6 .carousel button {
+  width: 5rem;
+  height: 2rem;
+}
+
+#iteration6 .carousel img {
+  width: 10rem;
+}
