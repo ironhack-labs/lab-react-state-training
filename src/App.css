@@ -1,0 +1,28 @@
+.App{
+    margin: 20px;
+}
+
+.glasses{
+    position: absolute;
+    left: 20px;
+}
+
+
+.roll-dice img{
+    width: 130px;
+}
+
+.counter-styles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    width: 255px;
+    border: 1px solid darkblue;
+}
+
+.counter-styles button{
+    margin: 10px;
+    width: 65px;
+    height: 65px;
+}
