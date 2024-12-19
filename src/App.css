@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.likebutton {
+  background-color: blue;
+  color: white; /* Ensure the text color contrasts with the background */
+  padding: 10px 20px;
+}
+
+.Counter {
+  background-color: red; /* Box background color */
+  padding: 20px 30px;
+  border-radius: 8px; /* Rounded corners */
+  display: inline-block; /* Make it behave like a box */
+  text-align: center;
+  margin: 1rem auto;
+}

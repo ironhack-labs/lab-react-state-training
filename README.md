@@ -38,7 +38,7 @@ You will use the `useState` hook to create state variables, update the state, an
 - Clone this repo
 
 ```shell
-cd lab-react-props-training
+cd lab-react-state-training
 npm install
 npm run dev
 ```
