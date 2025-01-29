@@ -11,3 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+button {
+  
+  background-color: rgb(108, 119, 108);
+  margin: 3vh;
+  padding: .5vh;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#test {
+  display: none;
+}
+
+div{
+  display: inline-block;
+  text-align: center;
+
+}
+
+h1, h2{
+  padding:2vh;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  /* Center the buttons horizontally */
+  align-items: center;
+  /* Center the buttons vertically (if the container has height) */
+  text-align: center;
+  /* This is usually for text inside the container, not strictly necessary for buttons */
+}
+
+img {
+  height: 200px;
+  width:200px;
+}
