@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+
+#like-button button {
+    margin-bottom: 40px;
+    padding: 12px 24px;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+#like-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#counter button {
+    margin-bottom: 40px;
+    padding: 12px 24px;
+    font-size: 16px;
+    background-color: #006DFD;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+#counter span {
+    font-size: 24px;
+    margin: 0 24px;
+}
+
+
+
+#counter {
+    display: flex;
+    justify-content: center;
+}
+
+#cickable-picture img {
+    width: 300px;
+    margin-bottom: 24px;
+}
+
+
+#dice-picture img {
+    width: 300px;
+    margin-bottom: 24px;
+}
+
+#carousel button{
+    margin-right: 24px;
+    margin-bottom: 40px;
+    padding: 12px 24px;
+    font-size: 16px;
+}
