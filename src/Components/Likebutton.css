@@ -1,0 +1,19 @@
+.LikeButton{
+    border:2px;
+    color:black;
+    background-color: white;
+    align-items: center;
+    padding-left: 20px;
+    margin-right: 10px;
+    display: flex;
+  gap: 10px;
+font-size: 20px;
+font-weight: 100;
+font-style:Bold;
+   
+}
+
+
+.LikeButton button:hover{
+    background-color:aqua;
+}
