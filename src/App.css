@@ -1,0 +1,27 @@
+#button {
+    height: 50px;
+    width: 150px;
+    margin: 20px;
+}
+
+#container {
+    margin: 20px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    border: solid 2px blue;
+    justify-content: center;
+}
+
+#buttonCount {
+    height: 50px;
+    width: 80px;
+    margin: 20px;
+    font-size: xx-large;
+    background-color: blue;
+    color: white;
+}
+
+#image {
+    height: 300px;
+}
