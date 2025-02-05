@@ -1,0 +1,10 @@
+.disco-button {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    margin: 20px;
+}
+.disco-like-button button {
+    cursor: pointer;
+}
+

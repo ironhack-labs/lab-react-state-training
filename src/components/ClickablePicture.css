@@ -1,0 +1,10 @@
+
+
+.clickable-picture img {
+    cursor: pointer;
+    height: 250px;
+    width: auto;
+    border-radius: 10px;
+    border: 2px solid #66b7e2;
+
+}

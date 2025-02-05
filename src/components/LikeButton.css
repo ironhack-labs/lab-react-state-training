@@ -1,0 +1,20 @@
+
+.like-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    margin: 20px;
+}
+
+button {
+    cursor: pointer;
+    color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        background-color: #66b7e2;
+        margin: 10px;
+}
+
+button:hover {
+    background-color: #005889;
+}
