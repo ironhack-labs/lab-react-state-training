@@ -1,0 +1,15 @@
+
+.likebutton {
+    padding: 10px 20px;
+}
+.counter {
+     padding: 20px 30px;
+    border-radius: 5px; 
+    display: flex;
+    align-items: center;
+     }
+.counter button {
+    background-color: blue;
+    padding: 10px 20px;
+    margin: 20px;
+     }
