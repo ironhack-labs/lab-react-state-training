@@ -6,8 +6,39 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.app{
+  display: flex;
+  flex-direction: row;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.buttons{
+position: absolute;
+left: 50%;
+width: 100px ;
+height: auto;
+margin: 0.5rem;
+border: 1px solid rgb(5, 48, 190);
+display: flex;
+align-items:center;
+}
+
+.button{
+  margin: auto;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(6, 104, 231);
+  
+}
+
+.img{
+  margin:1rem ;
+  width: 200px;
+  height: auto;
+  transition: transform 0.5s ease;
 }
