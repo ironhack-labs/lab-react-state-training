@@ -1,0 +1,18 @@
+section {
+    display: flex;
+
+}
+
+.glassesButton {
+    width: 450px;
+    height: 450px;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px 5px black;
+    transition: 1s;
+}
+
+.glassesButton:hover {
+    box-shadow: 5px 5px 5px 5px blue;
+    transition: 1s;
+}
