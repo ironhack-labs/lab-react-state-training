@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Counter p {
+  display: flex;
+  justify-content: space-around;
+  max-width: 100px;
+}
+
+.Counter p button{
+  background: blue;
+  color: white;
+}
+
+.Dice img{
+  max-height: 100px;
+  max-width: 100px;
+}
+
+.LikeButton {
+  display: flex;
+  justify-content: space-around;
+  max-width: 150px;  
+}
