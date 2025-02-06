@@ -1,0 +1,45 @@
+.like-buttons {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .counter {
+    display: flex;
+    flex-direction: row;
+    
+
+  }
+
+  .counter-button {
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+    background-color: blue;
+    color: white;
+  }
+
+  p {
+    font-size: 60px;
+    margin: 10px;
+  }
+
+  .dice {
+    max-width: 200px;
+  }
+
+  .disco-button {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    padding: 10px;
+    margin: 10px;
+    
+  }
+
+  .disco-buttons {
+    display: flex;
+    flex-direction: row;
+  }
