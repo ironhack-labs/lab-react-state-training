@@ -1,0 +1,18 @@
+body {
+    margin-left: 24px;
+}
+
+.counter-container {
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.guy-image {
+    width: 300px;
+}
+
+.dice-img {
+    width: 200px;
+}
