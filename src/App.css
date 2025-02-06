@@ -1,0 +1,51 @@
+.likes-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.likes-container button{
+    width: 105px;
+    height: 40px;
+    margin: 20px;
+}
+
+.counter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid purple;
+    background-color: rgb(195, 156, 232);
+    width: 300px;
+    margin: 20px auto;
+}
+
+.counter-container p {
+    font-size: 2.5rem;
+    color: white;
+}
+
+.counter-container button {
+    font-size: 2.5rem;
+    background-color: blueviolet;
+    color: white;
+    width: 60px;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-container img {
+    display: flex;
+    margin: 20px auto;
+    width: 300px;
+}
+
+.dice-container img{
+    display: flex;
+    margin: 20px auto;
+    width: 200px;
+}
