@@ -1,0 +1,20 @@
+.like-buttons {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  padding: 10px;
+  margin: 10px;
+}
+
+.counter {
+  display: flex;
+  flex-direction: row;
+}
+
+.counter-button {
+  width: 60px;
+  height: 60px;
+  margin: 20px;
+  background-color: rgb(52, 52, 223);
+  color: white;
+}
