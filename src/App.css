@@ -1,0 +1,127 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.App>hr {
+    width: 300px;
+    margin: 15px;
+}
+
+.like-button {
+    background-color: #f8dada;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    color: rgb(4, 4, 4);
+    margin-left: 10px;
+    align-items: center;
+}
+
+.like-button:hover {
+    background-color: #f8bcbc;
+    transition: background-color 0.5s;
+}
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.buttons>button {
+    width: 30px;
+    height: 30px;
+    background-color: #cee3c6;
+    border: none;
+    border-radius: 100px;
+    padding: 20px, 15px;
+    color: rgb(4, 4, 4);
+}
+
+.buttons>button:hover {
+    background-color: #95df78;
+    transition: background-color 0.5s;
+}
+
+.disco-button {
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.disco-button:hover {
+    box-shadow: 0 0 10px rgb(226, 156, 136), 0 0 10px rgb(226, 156, 136);
+    border-color: rgb(255, 255, 255);
+    transition: background-color 0.5s;
+}
+
+.clickable-picture {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+.clickable-picture:hover {
+    box-shadow: 0 0 20px rgba(165, 199, 241, 0.447), 0 0 20px rgba(217, 230, 246, 0.567);
+    border-color: rgb(255, 255, 255);
+    transition: background-color 0.5s;
+}
+
+.carousel {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.carousel>div>button {
+    background-color: #f0ce5c;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    color: rgb(4, 4, 4);
+    margin-left: 10px;
+    align-items: center;
+    width: 60px;
+}
+
+.carousel>div>button:hover {
+    background-color: #bfa34a;
+    transition: background-color 0.5s;
+}
+
+.carousel>div>img {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+.random-dice {
+    width: 150px;
+    height: 150px;
+}
