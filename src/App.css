@@ -1,0 +1,50 @@
+.all{
+  display: flex;
+  flex-direction: column;
+}
+.counter {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 900;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 32px;
+}
+
+.counter-button {
+width: 32px;
+height: 32px;
+}
+
+.like-button {
+font-family: 'Courier New', Courier, monospace;
+font-weight: 900;
+font-size: 16px;
+
+margin: 32px;
+width: max-content;
+height: 32px;
+}
+
+.pic {
+  margin: 32px;
+  width: 200px;
+  border-radius: 16px;
+}
+
+.dice {
+  margin: 32px;
+  width: 200px;
+}
+
+.carousel{
+  display: flex;
+  align-content: center;
+  margin: 32px;
+  gap: 16px;
+}
+
+.carousel-img{
+  width: 200px;
+}
