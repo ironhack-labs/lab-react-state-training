@@ -1,0 +1,65 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.LikeButton {
+  border-radius: 50px;
+  font-weight: 800;
+  font-style: oblique;
+  background-color: aqua;
+  border-color: blanchedalmond;
+}
+
+.it2{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.CountButton {
+  background-color: blue;
+  color: white;
+  height: 20px;
+  width: 20px;
+  text-align: center;
+  font-weight: 800;
+  justify-content: center;
+}
+
+.background {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.glasses {
+  position: absolute;
+  top: 265px;
+  left: 630px;
+  height: 150px;
+  transition: filter ease 300ms;
+}
+
+.glasses-on {
+  filter: opacity(1)
+}
+
+.glasses-off {
+  filter: opacity(0);
+}
+
+.orig-dice {
+  height: 100px;
+}
+
+.dice-on {
+  filter: opacity(1)
+}
+
+.dice-off {
+  filter: opacity(0);
+}
