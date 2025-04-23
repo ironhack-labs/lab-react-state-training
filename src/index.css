@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.Counter div {
+  margin: 50px 5px;
+}
+
+.btn {
+  background-color: rgba(8, 8, 234, 0.548);
+  color: white;
+  border: none;
+  margin: auto 5px;
+  width: 30px;
+  height: 30px;
+}
+
+.btn:hover {
+  background-color: rgba(70, 70, 252, 0.904);
+}
