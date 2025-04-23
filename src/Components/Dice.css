@@ -1,0 +1,19 @@
+.dice-container {
+    cursor: pointer;
+    width: 100px; 
+    height: 100px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dice-container img {
+    width: 100%; 
+    height: 100%;
+    object-fit: contain; 
+    transition: transform 0.2s ease; 
+  }
+  
+  .dice-container:hover img {
+    transform: scale(1.05); 
+  }

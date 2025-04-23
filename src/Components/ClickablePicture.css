@@ -1,0 +1,15 @@
+.clickable-picture {
+    width: 200px; 
+  }
+  
+  .clickable-picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; 
+    transition: transform 0.2s ease; 
+  }
+  
+  .clickable-picture img:hover {
+    transform: scale(1.02); 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+  }
