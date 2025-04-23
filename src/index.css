@@ -5,9 +5,45 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.likeButton {
+  text-align: center;
+}
+
+.counter {
+  margin-top: 20px;
+  text-align: center;
+  border: 1px solid blue;
+  font-size: 50px;
+  width: 300px;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  gap:20px;
+}
+
+.counter button {
+  width: 40px;
+  height: 40px;
+  background-color: blue;
+  color: white;
+  border: 0;
+  font-size: 30px;
+  text-align: center;
+}
+
+.photo {
+  margin-top: 20px;
+}
+
+.photo img {
+  width: 300px;
 }
