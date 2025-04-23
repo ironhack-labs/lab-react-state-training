@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  width: 200px;
+  border: solid blue
+}
+
+.counter.popular {
+  background-color: aqua;
+}
+
+.counter button {
+  margin: 10px 20px;
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+  color: aliceblue;
+}
