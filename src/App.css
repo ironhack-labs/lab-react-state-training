@@ -1,0 +1,11 @@
+.counter {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding-top: 1rem;
+  gap: 1rem;
+}
+.dice {
+  height: 200px;
+  width: auto;
+}
