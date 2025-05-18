@@ -1,0 +1,21 @@
+.counter {
+    display: flex;
+    gap: 10px;
+    border: 2px solid blue;
+    width: fit-content;
+    padding: 12px;
+}
+
+.counter-increment-button {
+    width: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.counter-decrement-button {
+    width: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
