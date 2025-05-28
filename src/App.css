@@ -1,0 +1,181 @@
+/* App.css */
+
+.app {
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    padding: 2rem;
+  }
+  
+  .app-title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #374151;
+  }
+  
+  .container {
+    max-width: 64rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .section {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .section-description {
+    color: #6b7280;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* LikeButton styles */
+  .like-button {
+    background-color: #3b82f6;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    margin: 0.5rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .like-button:hover {
+    background-color: #2563eb;
+  }
+  
+  /* Counter styles */
+  .counter-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem;
+  }
+  
+  .counter-button {
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .counter-button.decrement {
+    background-color: #ef4444;
+  }
+  
+  .counter-button.decrement:hover {
+    background-color: #dc2626;
+  }
+  
+  .counter-button.increment {
+    background-color: #22c55e;
+  }
+  
+  .counter-button.increment:hover {
+    background-color: #16a34a;
+  }
+  
+  .counter-display {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* ClickablePicture styles */
+  .clickable-picture-container {
+    margin: 1rem;
+  }
+  
+  .clickable-picture {
+    cursor: pointer;
+    border: 2px solid #d1d5db;
+    border-radius: 0.25rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .clickable-picture:hover {
+    border-color: #6b7280;
+  }
+  
+  /* Dice styles */
+  .dice-container {
+    margin: 1rem;
+  }
+  
+  .dice-image {
+    cursor: pointer;
+    width: 6rem;
+    height: 6rem;
+    transition: opacity 0.3s ease;
+  }
+  
+  .dice-image:hover {
+    opacity: 0.8;
+  }
+  
+  .dice-status {
+    margin-top: 0.5rem;
+    color: #6b7280;
+  }
+  
+  /* DiscoButton styles */
+  .disco-button {
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    margin: 0.5rem;
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+  }
+  
+  .disco-button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Carousel styles */
+  .carousel-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem;
+  }
+  
+  .carousel-button {
+    background-color: #6b7280;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .carousel-button:hover {
+    background-color: #4b5563;
+  }
+  
+  .carousel-image {
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    border-radius: 0.25rem;
+    border: 2px solid #d1d5db;
+  }
