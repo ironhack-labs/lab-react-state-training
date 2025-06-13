@@ -11,3 +11,52 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.diceImage img{
+  width: 300px;
+  margin: 20px;
+}
+
+#like1:hover{
+  border: solid 2px blue;
+}
+
+
+
+.likeBtn{
+  border-radius: 3px;
+  margin: 20px 0px 20px 20px;
+  padding: 5px 10px;
+}
+
+#like1{
+  margin-right: -15px;
+}
+
+#counterContainer{
+  border: solid 1px rgb(25, 110, 228);
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 20px;
+  font-size: 30px;
+}
+
+#counterContainer button{
+ /* width: 30px;
+ height: 30px; */
+ font-size: 1.5rem;
+ font-weight: 500;
+ color: white;
+ padding: 5px 15px;
+ margin: 0 auto;
+ background-color: rgb(20, 94, 213);
+ border: none;
+ transition: transform 0.1s ease;
+}
+
+#counterContainer button:active{
+  transform: scale(1.1);
+}
