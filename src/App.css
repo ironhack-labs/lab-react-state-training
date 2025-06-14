@@ -1,0 +1,11 @@
+.counter-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 5px solid grey;
+}
+
+.counter-container button {
+  width: 20vw;
+  height: 5vh;
+}
