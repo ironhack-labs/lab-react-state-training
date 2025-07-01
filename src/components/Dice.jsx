@@ -1,0 +1,39 @@
+import { useState } from "react";
+import diceCero from "../assets/images/dice-empty.png"
+import dice1 from "../assets/images/dice1.png"
+import dice2 from "../assets/images/dice2.png"
+import dice3 from "../assets/images/dice3.png"
+import dice4 from "../assets/images/dice4.png"
+import dice5 from "../assets/images/dice5.png"
+import dice6 from "../assets/images/dice6.png"
+
+const diceFaces = [
+dice1, dice2, dice3, dice4, dice5, dice6
+];
+
+export default function Dice() {
+ 
+  const [src, setSrc] = useState(() => {
+    const randomIndex = Math.floor(Math.random() * diceFaces.length);
+    return diceFaces[randomIndex];
+  });
+
+  const rollDice = () => {
+    
+    setSrc(diceCero);
+
+    setTimeout(() => {
+      const randomIndex = Math.floor(Math.random() * diceFaces.length);
+      setSrc(diceFaces[randomIndex]);
+    }, 1000);
+  };
+
+  return (
+    <img
+      src={src}
+      alt="Dice"
+      onClick={rollDice}
+      className="w-24 h-24 cursor-pointer select-none"
+    />
+  );
+}
