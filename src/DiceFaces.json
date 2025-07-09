@@ -1,0 +1,26 @@
+[
+  {
+    "url": "src/assets/images/dice1.png",
+    "alt": "image1"
+  },
+  {
+    "url": "src/assets/images/dice2.png",
+    "alt": "image2"
+  },
+  {
+    "url": "src/assets/images/dice3.png",
+    "alt": "image3"
+  },
+  {
+    "url": "src/assets/images/dice4.png",
+    "alt": "image4"
+  },
+  {
+    "url": "src/assets/images/dice5.png",
+    "alt": "image5"
+  },
+  {
+    "url": "src/assets/images/dice6.png",
+    "alt": "image6"
+  }
+]
