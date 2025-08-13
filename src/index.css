@@ -11,3 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+button {
+  margin: 10px
+}
+
+.counter-container {
+  display: flex;
+  align-items: center;
+  font-size: 2em;
+
+  p {
+    margin: 0 25px;
+  }
+
+  .counter-btn {
+    background-color: #006cfc;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1em;
+
+    &:hover {
+      background-color: #004aa8;
+    }
+  }
+}
+
+.picture-container {
+  img{
+    width: 200px;
+    margin: 5px;
+  }
+}
+
+.dice-container {
+  img {
+    width: 200px;
+  }
+}
