@@ -1,0 +1,58 @@
+#photo-off {
+    height: 150px;
+    width: 150px;
+    background-image: url("./assets/images/maxence.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#photo-on {
+    height: 150px;
+    width: 150px;
+    background-image: url("./assets/images/maxence-glasses.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#dice1 {
+    height: 150px;
+    width: 150px;
+    background-image: url("./assets/images/dice1.png");
+    background-size: cover;
+    background-position: center;  
+}
+#dice2 {
+    height: 150px;
+    width: 150px;
+    background-image: url("./assets/images/dice2.png");
+    background-size: cover;
+    background-position: center;  
+}
+#dice3 {
+    height: 150px;
+    width: 150px;
+    background-image: url("./assets/images/dice3.png");
+    background-size: cover;
+    background-position: center;  
+}
+#dice4 {
+    height: 150px;
+    width: 150px;
+    background-image: url("./assets/images/dice4.png");
+    background-size: cover;
+    background-position: center;  
+}
+#dice5 {
+    height: 150px;
+    width: 150px;
+    background-image: url("./assets/images/dice5.png");
+    background-size: cover;
+    background-position: center;  
+}
+#dice6 {
+    height: 150px;
+    width: 150px;
+    background-image: url("./assets/images/dice6.png");
+    background-size: cover;
+    background-position: center;  
+}
