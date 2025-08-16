@@ -1,0 +1,62 @@
+.counter {
+  margin: 1rem;
+  border: 0.3rem solid rgb(117, 100, 230);
+  border-radius: 0.5rem;
+  width: 15rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.counter-number {
+  width: 5rem;
+  height: 4rem;
+  text-align: center;
+  font-size: 3rem;
+  padding: 0;
+}
+
+.like-btn {
+  margin: 1rem;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+.button-83 {
+  display: flex;
+  padding: 0;
+  align-items: baseline;
+  align-content: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  background-image: linear-gradient(to bottom, #231cf3, #7a76f0);
+  border: 0 solid #231cf3;
+  border-radius: 0.5rem;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 700;
+  text-transform: none;
+  transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  box-shadow: -6px 8px 10px rgba(81, 41, 10, 0.1),
+    0px 2px 2px rgba(81, 41, 10, 0.2);
+}
+
+.button-83:active {
+  box-shadow: -1px 2px 3px rgba(95, 52, 211, 0.15),
+    0px 1px 1px rgba(81, 41, 10, 0.15);
+  transform: translateY(0.125rem);
+}
+.margin {
+  margin: 1rem;
+}
+.margin img {
+  width: 29rem;
+}
