@@ -1,13 +1,66 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.buttons-row {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem;
+}
+
+.buttons-row button {
+  padding: 0.5rem 1rem;
+  font-size: 1.4rem;
+}
+
+.counter-box {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  margin: 2rem;
+  width: fit-content;
+  border: 1px black solid;
+}
+
+.counter-box button {
+  background-color: blue;
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
+.dice {
+  width: 200px;
+  height: 200px;
+  margin: 2rem;
+}
+
+.btn-red {
+  color: white;
+  background-color: red;
+}
+
+.btn-blue {
+  color: white;
+  background-color: blue;
+}
+
+.carousel {
+  border: 1px solid black;
+  width: fit-content;
+  margin: 1rem;
+}
+
+.carousel button {
+  font-size: 2rem;
+  margin: auto 1rem;
+}
+.carousel img {
+  width: 300px;
 }
