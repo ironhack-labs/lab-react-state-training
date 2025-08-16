@@ -1,0 +1,61 @@
+.iteration {
+  display: block;
+  flex-direction: column;
+  float: left;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+header {
+    padding-bottom: 8px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.likeButton {
+    cursor: pointer;
+}
+
+.button {
+    margin-left: 8px;
+    margin-right: 8px;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 4px 16px;
+    font-size: 32px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: darkblue;
+}
+
+#Counter {
+    border: 1px solid blue;
+    width: fit-content;
+    padding: 8px;
+    display: block;
+    flex-direction: row;
+    justify-items: center;
+}
+
+.count {
+    font-size: 32px;
+    color: black;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.clickablePicture {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.Dice {
+    cursor: pointer;
+}
