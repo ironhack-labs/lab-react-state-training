@@ -1,0 +1,19 @@
+.counter{
+
+  border: 1px solid blue;
+  margin: 10px auto;    
+  padding: 10px;
+  display: inline-flex; 
+  align-items: center;
+  justify-content: center;
+
+
+}
+.btn{
+    margin: 3px;
+    color: white;
+    background-color: rgb(76, 133, 206);
+}
+.gafas{
+  cursor: "pointer"; 
+}
