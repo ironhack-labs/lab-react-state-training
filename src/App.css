@@ -1,0 +1,48 @@
+body {
+	padding: 1rem;
+}
+.btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 12px;
+	width: fit-content;
+	height: 1.5rem;
+	padding: 5px;
+	border: 2px solid rgb(47, 109, 244);
+	border-radius: 8px;
+	margin-top: 1rem;
+}
+.btn-counter {
+	background-color: rgb(47, 109, 244);
+	color: white;
+}
+.btn-counter {
+	background-color: rgb(29, 73, 162);
+}
+/* ['purple', 'blue', 'green', 'yellow', 'orange', 'red']a */
+.btn-purple {
+	background-color: purple;
+	color: white;
+}
+
+.btn-blue {
+	background-color: blue;
+	color: white;
+}
+.btn-green {
+	background-color: green;
+	color: white;
+}
+.btn-yellow {
+	background-color: yellow;
+	color: black;
+}
+.btn-orange {
+	background-color: orange;
+	color: black;
+}
+.btn-red {
+	background-color: red;
+	color: white;
+}
