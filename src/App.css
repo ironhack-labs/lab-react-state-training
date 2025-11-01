@@ -1,0 +1,26 @@
+
+.like {
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+.counter {
+display: flex;
+align-items: space-between;
+justify-content:space-evenly;
+margin-bottom: 3rem;
+}
+
+.counter button {
+    padding: 0 2rem;
+}
+
+.image {
+    width: 40%;
+    height: auto;
+    padding-bottom: 2rem;
+}
+
+.dice {
+    width: 40%;
+    height: auto;
+}
