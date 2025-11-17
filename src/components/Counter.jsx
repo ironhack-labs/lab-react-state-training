@@ -8,10 +8,14 @@ export default function Counter() {
     setCount(count + 1);
   };
 
-  const decrement = () => {
+const decrement = () => {
+  if (count > 0) {
     console.log("Decrement clicked!");
     setCount(count - 1);
-  };
+  } else {
+    console.log("Count is already 0, cannot decrement");
+  }
+};
 
   return (
     <div
