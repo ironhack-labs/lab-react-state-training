@@ -11,3 +11,55 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* index.css */
+
+.dark {
+  background: #282c34;
+  color: white;
+}
+
+
+.counter-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 15px 30px;
+  width: fit-content;
+  margin: 50px auto;
+  background: #f9f9f9;
+}
+
+.count {
+  font-size: 20px;
+  font-weight: bold;
+  width: 40px;
+  text-align: center;
+}
+
+.btn {
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn.minus {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.btn.plus {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
