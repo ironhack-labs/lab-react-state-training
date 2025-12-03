@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.counter button {
+  background-color: #016FFD ;
+  height: 50px;
+  width: 50px;
+    margin: 20px;
+
+}
+.counter {
+  font-size: 30px;
+
+  padding: 20px;
+}
