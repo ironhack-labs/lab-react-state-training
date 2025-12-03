@@ -1,3 +1,39 @@
+*{
+  text-align: center;
+}
+.Likebutton {
+  font-size: 32px;
+}
+.counter-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+.counter-btn {
+  background-color: #0066ff;     /* Blue background */
+  color: white;                  /* White symbol */
+  border: none;
+  width: 60px;                   /* Square shape */
+  height: 60px;
+  font-size: 32px;
+  font-weight: bold;
+  border-radius: 6px;            /* Slight rounded corners */
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.counter-btn:hover {
+  background-color: #0050cc;     /* Darker blue on hover */
+}
+
+.counter-value {
+  font-size: 40px;
+  font-weight: bold;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +47,5 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
