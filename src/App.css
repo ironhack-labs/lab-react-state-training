@@ -1,0 +1,31 @@
+.App {
+    text-align: center;
+    background-color: rgb(31, 30, 30);
+    color: white;
+}
+
+.clickable-picture {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+}
+
+.container {
+    text-align: center;
+    padding: 2rem 2rem;
+    margin: 1rem;
+}
+
+.square {
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 1rem 1rem;
+}
+
+.Counter {
+    display: inline-block;
+    vertical-align: center;
+}
