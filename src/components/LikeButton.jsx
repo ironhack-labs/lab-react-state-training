@@ -5,7 +5,7 @@ function LikeButton() {
     const [counter, setCounter] = useState(0)
     return (
         <div>
-            <p style={{padding: "10px", backgroundColor: "gray", width: "100px"}} onClick={() => setCounter(counter + 1)}>{counter} Likes</p>
+            <p style={{padding: "10px", width: "100px"}} onClick={() => setCounter(counter + 1)}>{counter} Likes</p>
         </div>
     )
 }
