@@ -1,0 +1,13 @@
+.dice {
+    height: 250px;
+    width: 250px;
+    margin: 50px;
+    background-color: white;
+    border-radius: 40px;
+}
+
+.dice img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
