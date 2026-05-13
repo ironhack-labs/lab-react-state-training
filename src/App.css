@@ -1,0 +1,12 @@
+.container-buttons {
+  margin: 2rem;
+  border: blue;
+}
+
+.button-color {
+  padding: 10px 20px;
+  margin: 15px;
+  color: #ffffff;
+  background-color: #3f51b5;
+  border: #3f51b5;
+}
