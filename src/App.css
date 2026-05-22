@@ -1,0 +1,123 @@
+/* ── App layout ── */
+.App {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  font-family: "Georgia", serif;
+}
+
+.App h1 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #222;
+  padding-bottom: 0.5rem;
+}
+
+section {
+  margin-bottom: 2.5rem;
+}
+
+section h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #888;
+  margin-bottom: 1rem;
+}
+
+/* ── LikeButton ── */
+.like-btn {
+  padding: 0.5rem 1.4rem;
+  font-size: 1rem;
+  background: #111;
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: transform 0.1s, background 0.2s;
+}
+.like-btn:hover { background: #e0245e; transform: scale(1.05); }
+.like-btn:active { transform: scale(0.97); }
+
+/* ── Counter ── */
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.counter-btn {
+  width: 2.4rem;
+  height: 2.4rem;
+  font-size: 1.4rem;
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.counter-btn:hover { background: #ddd; }
+.counter-value {
+  font-size: 2rem;
+  font-weight: bold;
+  min-width: 2rem;
+  text-align: center;
+}
+
+/* ── ClickablePicture ── */
+.clickable-picture {
+  width: 180px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+}
+.clickable-picture:hover { transform: scale(1.04); box-shadow: 0 8px 24px rgba(0,0,0,0.2); }
+
+/* ── Dice ── */
+.dice {
+  width: 120px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.15s;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+}
+.dice:hover { transform: rotate(-5deg) scale(1.06); }
+
+/* ── DiscoButton ── */
+.disco-btn {
+  padding: 0.5rem 1.4rem;
+  font-size: 1rem;
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.1s;
+}
+.disco-btn:hover { filter: brightness(1.15); transform: scale(1.05); }
+.disco-btn:active { transform: scale(0.97); }
+
+/* ── Carousel ── */
+.carousel {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.carousel-image {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+  transition: opacity 0.2s;
+}
+.carousel-btn {
+  font-size: 1.4rem;
+  background: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.carousel-btn:hover { background: #ddd; }
