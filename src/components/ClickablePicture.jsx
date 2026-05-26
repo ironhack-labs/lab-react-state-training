@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function ClickablePicture() {
-  const img1 = "http://www.stickpng.com/assets/images/584999937b7d4d76317f5ffd.png";
+  const img1 = "/mnt/data/maxence-glasses.png";
   const img2 = "/assets/maxence-glasses.png"; // o cualquier otra imagen
 
   const [clicked, setClicked] = useState(false);
