@@ -1,0 +1,19 @@
+
+.counter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid rgb(36, 9, 240);
+}
+
+.dec-btn,
+.inc-btn {
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  background-color: rgb(9, 190, 240);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
