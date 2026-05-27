@@ -5,9 +5,49 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#like-button-component {
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 3em;
+}
+
+#counter-component {
+  border: rgb(73, 73, 219) 1px solid;
+  border-radius: 5px;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0.5em;
+  width: 6em;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3em;
+}
+
+#counter-component button {
+  background-color: rgb(73, 73, 219);
+  border-style: none;
+  border-radius: 5px;
+  color: #fff;
+  width: 2em;
+  height: 2em;
+}
+
+#counter-component button:active {
+  background-color: rgb(50, 50, 156);
+  box-shadow: 0 0 0.5em rgb(170, 170, 229);
+}
+
+.profile-picture {
+  width: 10em;
+  
 }
