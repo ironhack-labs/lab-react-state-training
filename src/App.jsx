@@ -1,11 +1,20 @@
 import "./App.css";
+import { Counter } from "./components/Counter";
+import { LikeButton } from "./components/LikeButton";
 
 function App() {
   return (
     <div className="App">
       <h1> LAB | React Training</h1>
+      <div>
+      <LikeButton/>
+      </div>
+      <div>
+      <Counter/>
+      </div>
     </div>
   );
 }
+
 
 export default App;
