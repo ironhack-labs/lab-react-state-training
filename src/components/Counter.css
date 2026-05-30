@@ -1,0 +1,31 @@
+.counter {
+    border: 1px solid rgba(61, 61, 255, 0.775);
+    width: 200px;
+    height: 70px;
+    padding: 8px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.counter button {
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(61, 61, 255, 0.775);
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.counter button:hover {
+    background-color: rgb(61, 61, 255);
+    box-shadow: rgba(188, 196, 255, 0.263) 0 10px 15px -3px;;
+}
+
+.counter span {
+    font-size: 1.8em;
+}

@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#root {
+  text-align: center;
+}
+
+
+button {
+  padding: 8px;
+  width: 80px;
+  background-color: rgba(103, 103, 103, 0.663);
+  border: none;
+  color: white;
+}
+
+button:hover {
+  background-color: rgb(103, 103, 103);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 10px 15px -3px;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    margin: 0 10px;
+}
+
+div {
+    margin : 20px auto;
+}
