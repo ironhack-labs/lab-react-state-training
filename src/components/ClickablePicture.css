@@ -1,0 +1,13 @@
+.clickable-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.clickable-picture img {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  cursor: pointer;
+}

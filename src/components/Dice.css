@@ -1,0 +1,13 @@
+.dice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.dice img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  cursor: pointer;
+}
