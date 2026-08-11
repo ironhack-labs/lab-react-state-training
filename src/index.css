@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#btn button{
+background-color: blue;
+color: antiquewhite;
+}
+#btn{
+  border: 2px solid black;
+  width:fit-content;
+  margin: 20px;
+}
+#dice{
+  width: 100px;
+}
