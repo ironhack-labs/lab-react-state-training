@@ -33,3 +33,8 @@ code {
   height: auto;
   cursor: pointer;
 }
+
+.dice-img {
+  max-width: 150px;
+  cursor: pointer;
+}
