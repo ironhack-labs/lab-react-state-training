@@ -1,0 +1,25 @@
+.App {
+  padding: 0 30px;
+}
+
+.counter {
+  display: flex;
+  gap: 15px;
+  border: 1px solid dodgerblue;
+  width: fit-content;
+  padding: 0 15px;
+  align-items: center;
+}
+
+.counter button {
+  width: 30px;
+  height: 30px;
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+img {
+  max-width: 140px;
+}
