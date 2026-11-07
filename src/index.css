@@ -11,3 +11,41 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.like-buttons-container {
+  margin-top: 40px;
+  margin-bottom: 25px;
+  display: flex;
+  gap: 20px; 
+}
+
+
+.like-button {
+  font-size: 18px;
+  padding: 12px 24px;
+  cursor: pointer;
+}
+
+.counter-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #2b70fa;
+  padding: 8px 20px;
+}
+
+
+.counter-btn {
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  padding: 6px 14px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.counter-value {
+  font-size: 22px;
+  margin: 0 18px;
+}
