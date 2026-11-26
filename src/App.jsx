@@ -1,4 +1,5 @@
 import "./App.css";
+import ClickablePicture from "./components/ClickablePicture";
 import Counter from "./components/Counter";
 import LikeButton from "./components/LikeButton";
 
@@ -13,6 +14,9 @@ function App() {
 
       <h2>Counter</h2>
       <Counter />
+
+      <h2>ClickablePicture</h2>
+      <ClickablePicture />
     </div>
   );
 }
