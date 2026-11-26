@@ -25,6 +25,7 @@ function App() {
 
       <h2>DiscoButton</h2>
       <DiscoButton />
+      <DiscoButton />
     </div>
   );
 }
