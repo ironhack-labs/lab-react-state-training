@@ -1,0 +1,25 @@
+.counter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 140px;
+    border: 1px solid blue;
+}
+
+.button {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    background-color: rgb(10, 49, 219);
+    border: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.button:hover {
+    cursor: pointer;  
+}
+
+.button:active {
+    background-color: rgb(1, 3, 131);
+}
