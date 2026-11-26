@@ -1,4 +1,5 @@
 import "./App.css";
+import Counter from "./components/Counter";
 import LikeButton from "./components/LikeButton";
 
 function App() {
@@ -9,6 +10,9 @@ function App() {
       <h2>Like Button</h2>
       <LikeButton />
       <LikeButton />
+
+      <h2>Counter</h2>
+      <Counter />
     </div>
   );
 }

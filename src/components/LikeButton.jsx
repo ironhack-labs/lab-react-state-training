@@ -8,7 +8,7 @@ function LikeButton() {
   }
  
   return (
-      <button onClick={handleLike}>{count} likes</button>
+    <button onClick={handleLike}>{count} likes</button>
   )
 }
  
