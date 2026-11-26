@@ -1,0 +1,33 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 300px;
+}
+
+.Counter{
+  border: 2px solid blue;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+.Counter button{
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  background-color: aqua;
+  transition: transform 0.1s ease;
+}
+
+.Counter button:hover{
+  background-color: blue;
+  color: white;
+}
+
+.Counter button:active{
+  transform: scale(0.95);
+}
