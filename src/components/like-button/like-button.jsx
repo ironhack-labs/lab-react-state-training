@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-function LikeButton (props) {
+function LikeButton () {
 
     const [likes, setLikes] = useState(0)
 

@@ -24,8 +24,7 @@ function ClickablePicture () {
         }
     }
 
-    return <div> <img className="image" onClick={togglePhoto} src={photo} alt={alt} />
-    </div>
+    return <img className="image" onClick={togglePhoto} src={photo} alt={alt} />
 }
 
 export default ClickablePicture
