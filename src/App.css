@@ -1,0 +1,86 @@
+.App h1{
+     display: flex;
+     justify-content: center;
+
+}
+
+.likebutton {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 300px;
+    padding: 25px;
+    margin: 20px auto;
+    border: 1px solid blue;
+
+}
+
+.counter button {
+    width: 55px;
+    height: 55px;
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.counter button:hover {
+    background-color: darkblue;
+    
+}
+
+.counter h2 {
+    font-size: 36px;
+    font-weight: normal;
+    margin: 0;
+    text-align: center;
+
+}
+
+.clickable-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    margin: 20px auto;
+    cursor: pointer;
+
+}
+
+.dice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    margin: 20px auto;
+    cursor: pointer;
+
+}
+
+.disco-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    padding: 10px 20px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
